@@ -3,7 +3,8 @@ import { Font } from 'astro:assets';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Lightbox from '../components/Lightbox.astro';
-import { languages, ui, alternatePath, type Lang, type PageKey } from '../i18n/config';
+import { languages, ui, alternatePath, localePath, type Lang, type PageKey } from '../i18n/config';
+import { structuredData } from '../seo';
 import '../styles/global.css';
 
 interface Props {
@@ -22,6 +23,7 @@ const metaDescription =
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const alternate = new URL(alternatePath(lang, pageKey), Astro.site).href;
+const ogImage = new URL('/images/og-image.jpg', Astro.site).href;
 const t = ui[lang];
 ---
 
@@ -39,6 +41,7 @@ const t = ui[lang];
       hreflang={languages[lang === 'de' ? 'es' : 'de'].htmlLang}
       href={alternate}
     />
+    <link rel="alternate" hreflang="x-default" href={new URL(localePath('de', pageKey), Astro.site).href} />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta property="og:type" content="website" />
@@ -46,6 +49,17 @@ const t = ui[lang];
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={metaDescription} />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={siteName} />
+    <meta property="og:locale" content={lang === 'de' ? 'de_DE' : 'es_ES'} />
+    <meta property="og:locale:alternate" content={lang === 'de' ? 'es_ES' : 'de_DE'} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImage} />
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
     <Font cssVariable="--font-body" preload />
     <Font cssVariable="--font-heading" />
     <Font cssVariable="--font-nav" />

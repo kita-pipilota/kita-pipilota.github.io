@@ -1,3 +1,7 @@
+# All crawlers are welcome, including AI/LLM crawlers such as GPTBot,
+# ClaudeBot, PerplexityBot, Google-Extended, Applebot-Extended and Bingbot.
+# We want the Kita to be findable and describable by search engines and AI
+# assistants.
 User-agent: *
 Allow: /
 

@@ -4,8 +4,6 @@ description: "Educadoras Seis educadoras, algunas con español como lengua mater
 translationKey: "educators"
 ---
 
-## Educadoras
-
 Seis educadoras, algunas con español como lengua materna y otras con alemán como lengua materna, trabajan con lxs niñxs. Las educadoras disponen de calificaciones especiales (pedagogía ambiental, pedagogía de danza y arte, psicopedagogía).
 
 ## Elena Duran

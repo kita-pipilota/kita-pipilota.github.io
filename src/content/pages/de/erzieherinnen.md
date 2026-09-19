@@ -4,8 +4,6 @@ description: "ErzieherInnen Sechs ErzieherInnen, vier spanische MuttersprachlerI
 translationKey: "educators"
 ---
 
-## ErzieherInnen
-
 Sechs ErzieherInnen, vier spanische MuttersprachlerInnen und drei deutsche MuttersprachlerInnen, arbeiten mit den Kindern. Die ErzieherInnen bringen besondere Qualifikationen (Umwelt-, Kunst-, Tanz- und Psychopädagogik) mit.
 
 ## Emma Juan Uriol

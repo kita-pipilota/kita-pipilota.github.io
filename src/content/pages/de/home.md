@@ -1,10 +1,10 @@
 ---
-title: "Startseite"
-description: "Kita Pipilota – spanisch-deutsche Kindertagesstätte in Berlin-Friedrichshain."
+title: "Spanisch-deutsche Kita in Berlin-Friedrichshain"
+description: "Kita Pipilota: bilinguale spanisch-deutsche Kindertagesstätte (Kita) in Berlin-Friedrichshain. Betreuung für Kinder von 1 Jahr bis zum Schulbeginn."
 translationKey: "home"
 ---
 
-## Willkommen bei der Kita Pipilota
+# Willkommen bei der Kita Pipilota
 
 Wir sind eine **spanisch-deutsche** Kindertagesstätte in Berlin-Friedrichshain. Wir begleiten Kinder von einem Jahr bis zum Schulbeginn in einer bilingualen, wertschätzenden Umgebung mit viel Raum für freies Spiel.
 

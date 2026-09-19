@@ -4,8 +4,6 @@ description: "Ubicación, entorno y espacios interiores de la Kita Pipilota en B
 translationKey: "house"
 ---
 
-## Instalaciones
-
 ### Ubicación y entorno
 
 - **Dirección:** El jardín infantil está situado en la Ebertystr. 43, en el Hausburgviertel de Berlin-Friedrichshain.
