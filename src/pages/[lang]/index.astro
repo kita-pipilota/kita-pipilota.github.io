@@ -19,7 +19,7 @@ const heroImage = '/images/background-pattern.jpg';
 ---
 
 <BaseLayout lang={lang} pageKey="home" title={entry.data.title} description={entry.data.description}>
-  <section class="hero" style={`--hero-image: url(${heroImage})`}>
+  <section class="hero hero--compact" style={`--hero-image: url(${heroImage})`}>
     <img
       class="hero__logo"
       src="/images/home-hero.png"
@@ -28,7 +28,7 @@ const heroImage = '/images/background-pattern.jpg';
       height="260"
     />
   </section>
-  <section class="page-section">
+  <section class="page-section page-section--tight">
     <div class="container prose">
       <Content />
     </div>

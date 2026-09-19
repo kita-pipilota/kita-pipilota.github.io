@@ -158,6 +158,14 @@ hr {
   width: min(70%, 26rem);
 }
 
+.hero--compact {
+  min-height: 15rem;
+}
+
+.page-section--tight {
+  padding-top: 1.25rem;
+}
+
 .gallery {
   display: grid;
   gap: 0.75rem;
