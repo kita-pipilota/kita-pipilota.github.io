@@ -31,12 +31,21 @@ html {
 
 body {
   margin: 0;
-  background: var(--color-bg);
+  background-color: #ffffff;
+  background-image: url('/images/background-pattern.jpg');
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top left;
+  background-attachment: scroll;
   color: var(--color-text);
   font-family: var(--font-body-stack);
   font-size: 1.125rem;
   line-height: 1.75;
   text-rendering: optimizeLegibility;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.45);
 }
 
 img {
@@ -139,8 +148,9 @@ hr {
   place-items: center;
   background-color: #ffffff;
   background-image: var(--hero-image);
-  background-size: cover;
-  background-position: center;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top left;
   text-align: center;
 }
 

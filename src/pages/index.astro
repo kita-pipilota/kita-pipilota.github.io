@@ -3,7 +3,7 @@ import { Font } from 'astro:assets';
 import { languages, localePath, langs, type Lang } from '../i18n/config';
 import '../styles/global.css';
 
-const heroImage = '/images/hero-background.jpg';
+const heroImage = '/images/background-pattern.jpg';
 const descriptions: Record<Lang, string> = {
   de: 'Spanisch-deutsche Kita in Berlin-Friedrichshain',
   es: 'Jardín infantil español-alemán en Berlín-Friedrichshain',
@@ -70,7 +70,6 @@ const descriptions: Record<Lang, string> = {
   .chooser {
     min-height: 100vh;
     display: grid;
-    background: var(--color-bg-alt);
   }
 
   .chooser__main {
@@ -85,8 +84,9 @@ const descriptions: Record<Lang, string> = {
     place-items: center;
     background-color: #ffffff;
     background-image: var(--hero-image);
-    background-size: cover;
-    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
   }
 
   .chooser__hero .hero__logo {
@@ -98,6 +98,8 @@ const descriptions: Record<Lang, string> = {
     padding: 3rem 1.25rem;
     max-width: 46rem;
     margin-inline: auto;
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: var(--radius);
   }
 
   .chooser__title {

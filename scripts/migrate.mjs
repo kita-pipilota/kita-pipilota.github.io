@@ -41,7 +41,6 @@ const PAGES = [
 
 const assetMap = {
   'logosmall.png': '/images/logosmall.png',
-  '356639970.jpg': '/images/hero-background.jpg',
   'img-0706.png': '/images/home-hero.png',
   'screenshot-2025-11-12-at-15-54-27': '/images/admission.png',
   'screenshot-2025-11-12-at-16-58-51': '/images/kooperation-1.png',
