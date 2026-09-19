@@ -15,11 +15,10 @@ if (!entry) {
 }
 
 const { Content } = await render(entry);
-const heroImage = '/images/background-pattern.jpg';
 ---
 
 <BaseLayout lang={lang} pageKey="home" title={entry.data.title} description={entry.data.description}>
-  <section class="hero hero--compact" style={`--hero-image: url(${heroImage})`}>
+  <section class="hero hero--compact">
     <img
       class="hero__logo"
       src="/images/home-hero.png"
