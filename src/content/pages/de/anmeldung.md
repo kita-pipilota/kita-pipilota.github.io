@@ -1,7 +1,7 @@
 ---
 title: "Anmeldung"
-description: "PIPILOTA"
+description: "Anmeldung bei der Kita Pipilota: Anmeldeformular."
 translationKey: "admission"
 ---
 
-![Picture](/images/admission.png)
+![Illustration von Pippi Langstrumpf](/images/admission.png)

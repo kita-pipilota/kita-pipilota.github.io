@@ -1,7 +1,7 @@
 ---
 title: "Admisión"
-description: "Pipilota"
+description: "Inscripción en la Kita Pipilota: formulario de admisión."
 translationKey: "admission"
 ---
 
-![Picture](/images/admission.png)
+![Ilustración de Pippi Calzaslargas](/images/admission.png)

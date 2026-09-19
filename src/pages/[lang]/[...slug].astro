@@ -33,10 +33,56 @@ const { Content } = await render(entry);
 <BaseLayout lang={lang} pageKey={pageKey} title={entry.data.title} description={entry.data.description}>
   <section class="page-section">
     <div class="container">
-      <article class="prose">
-        <Content />
-      </article>
-      {isAdmission && <ContactForm lang={lang} />}
+      {
+        isAdmission ? (
+          <div class="admission-layout">
+            <div class="admission-layout__media">
+              <Content />
+            </div>
+            <div class="admission-layout__form">
+              <ContactForm lang={lang} />
+            </div>
+          </div>
+        ) : (
+          <article class="prose">
+            <Content />
+          </article>
+        )
+      }
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .admission-layout {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .admission-layout__media {
+    max-width: 32rem;
+  }
+
+  .admission-layout__media :global(img) {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 60rem) {
+    .admission-layout {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+      align-items: start;
+    }
+
+    .admission-layout__media {
+      max-width: none;
+    }
+
+    .admission-layout :global(.contact-form) {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
+  }
+</style>
