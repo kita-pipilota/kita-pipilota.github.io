@@ -74,9 +74,17 @@ const other: Lang = lang === 'de' ? 'es' : 'de';
         }
       </ul>
 
-      <a class="lang-switch" href={alternatePath(lang, pageKey)} hreflang={languages[other].htmlLang}>
-        {languages[other].label}
-      </a>
+      {
+        pageKey !== 'imprint' && (
+          <a
+            class="lang-switch"
+            href={alternatePath(lang, pageKey)}
+            hreflang={languages[other].htmlLang}
+          >
+            {languages[other].label}
+          </a>
+        )
+      }
     </nav>
   </div>
 </header>

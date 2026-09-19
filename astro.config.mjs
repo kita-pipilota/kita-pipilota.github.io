@@ -20,6 +20,10 @@ export default defineConfig({
       prefixDefaultLocale: true,
     },
   },
+  redirects: {
+    // The Impressum is a German legal requirement and only exists in German.
+    '/es/aviso-legal/': '/de/impressum/',
+  },
   fonts: [
     {
       provider: fontProviders.google(),
