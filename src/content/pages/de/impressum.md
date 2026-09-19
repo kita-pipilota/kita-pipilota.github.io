@@ -14,7 +14,7 @@ Ebertystraße 43
 [Name(n) der/des Vertretungsberechtigten]
 
 **Kontakt:**  
-Telefon: [030 ...]  
+Telefon: [(030) 42 80 98 79](tel:+493042809879)  
 E-Mail: [info@pipilota.de](mailto:info@pipilota.de)
 
 **Registereintrag:**  
