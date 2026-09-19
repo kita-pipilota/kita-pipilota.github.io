@@ -55,4 +55,4 @@ Además, tiene derecho a presentar una reclamación ante una autoridad de contro
 
 Nos reservamos el derecho de adaptar esta política de privacidad cuando cambie la situación jurídica o nuestro tratamiento de datos.
 
-_Fecha: [introducir la fecha]_
+_Fecha: 19 de septiembre de 2026_

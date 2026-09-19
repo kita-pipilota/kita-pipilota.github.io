@@ -55,4 +55,4 @@ Darüber hinaus haben Sie das Recht, sich bei einer Datenschutz-Aufsichtsbehörd
 
 Wir behalten uns vor, diese Datenschutzerklärung anzupassen, sobald sich die Rechtslage oder unsere Datenverarbeitung ändert.
 
-_Stand: [Datum eintragen]_
+_Stand: 19. September 2026_
