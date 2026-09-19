@@ -1,0 +1,61 @@
+---
+import { Font } from 'astro:assets';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { languages, ui, alternatePath, type Lang, type PageKey } from '../i18n/config';
+import '../styles/global.css';
+
+interface Props {
+  lang: Lang;
+  pageKey: PageKey;
+  title: string;
+  description?: string;
+}
+
+const { lang, pageKey, title, description } = Astro.props;
+const siteName = 'Kita Pipilota';
+const fullTitle = pageKey === 'home' ? `${siteName} – ${title}` : `${title} – ${siteName}`;
+const metaDescription =
+  description ??
+  'Pipilota – spanisch-deutsche Kita in Berlin-Friedrichshain. Bilinguale Kinderbetreuung / Jardín infantil bilingüe en Berlín.';
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const alternate = new URL(alternatePath(lang, pageKey), Astro.site).href;
+const t = ui[lang];
+---
+
+<!doctype html>
+<html lang={languages[lang].htmlLang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={languages[lang].htmlLang} href={canonical} />
+    <link
+      rel="alternate"
+      hreflang={languages[lang === 'de' ? 'es' : 'de'].htmlLang}
+      href={alternate}
+    />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonical} />
+    <Font cssVariable="--font-body" preload />
+    <Font cssVariable="--font-heading" />
+    <Font cssVariable="--font-nav" />
+    <Font cssVariable="--font-serif" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{t.skipToContent}</a>
+    <Header lang={lang} pageKey={pageKey} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

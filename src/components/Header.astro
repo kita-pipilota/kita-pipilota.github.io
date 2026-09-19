@@ -1,0 +1,257 @@
+---
+import {
+  languages,
+  nav,
+  pageRegistry,
+  localePath,
+  alternatePath,
+  ui,
+  type Lang,
+  type PageKey,
+} from '../i18n/config';
+
+interface Props {
+  lang: Lang;
+  pageKey: PageKey;
+}
+
+const { lang, pageKey } = Astro.props;
+const t = ui[lang];
+const other: Lang = lang === 'de' ? 'es' : 'de';
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href={localePath(lang, 'home')} aria-label="Pipilota">
+      <img src="/images/logosmall.png" alt="Pipilota" width="180" height="60" />
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+      <span class="visually-hidden">{t.menu}</span>
+    </button>
+
+    <nav id="primary-nav" class="primary-nav" aria-label={t.menu}>
+      <ul class="nav-list">
+        {
+          nav.map((node) =>
+            node.kind === 'page' ? (
+              <li>
+                <a
+                  href={localePath(lang, node.key)}
+                  aria-current={node.key === pageKey ? 'page' : undefined}
+                >
+                  {pageRegistry[node.key][lang].label}
+                </a>
+              </li>
+            ) : (
+              <li class="nav-group">
+                <button
+                  class="nav-group__toggle"
+                  type="button"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                >
+                  {node.label[lang]}
+                </button>
+                <ul class="nav-sublist">
+                  {node.children.map((child) => (
+                    <li>
+                      <a
+                        href={localePath(lang, child)}
+                        aria-current={child === pageKey ? 'page' : undefined}
+                      >
+                        {pageRegistry[child][lang].label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ),
+          )
+        }
+      </ul>
+
+      <a class="lang-switch" href={alternatePath(lang, pageKey)} hreflang={languages[other].htmlLang}>
+        {languages[other].label}
+      </a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const header = document.querySelector('.site-header');
+  const toggle = header?.querySelector('.nav-toggle');
+  const navEl = header?.querySelector('.primary-nav');
+
+  toggle?.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    navEl?.classList.toggle('is-open', !open);
+  });
+
+  header?.querySelectorAll('.nav-group__toggle').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const group = btn.closest('.nav-group');
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      group?.classList.toggle('is-open', !open);
+    });
+  });
+</script>
+
+<style>
+  .site-header {
+    position: relative;
+    z-index: 50;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: var(--header-height);
+  }
+
+  .brand img {
+    display: block;
+    width: auto;
+    height: 3.5rem;
+  }
+
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+
+  .nav-toggle__bar {
+    width: 26px;
+    height: 2px;
+    background: var(--color-text);
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list a,
+  .nav-group__toggle {
+    font-family: var(--font-nav-stack);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: var(--color-text);
+    background: none;
+    border: 0;
+    padding: 0.25rem 0;
+    cursor: pointer;
+  }
+
+  .nav-list a:hover,
+  .nav-group__toggle:hover,
+  .nav-list a[aria-current='page'] {
+    color: var(--color-accent-dark);
+  }
+
+  .nav-group {
+    position: relative;
+  }
+
+  .nav-sublist {
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 0;
+    display: none;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .nav-group:hover .nav-sublist,
+  .nav-group:focus-within .nav-sublist,
+  .nav-group.is-open .nav-sublist {
+    display: flex;
+  }
+
+  .lang-switch {
+    font-family: var(--font-nav-stack);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: var(--color-accent-dark);
+    border: 1px solid var(--color-accent);
+    border-radius: var(--radius);
+    padding: 0.4rem 0.8rem;
+    white-space: nowrap;
+  }
+
+  @media (min-width: 56rem) {
+    .nav-group .nav-sublist {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      min-width: 12rem;
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      padding: 0.75rem 1rem;
+      z-index: 20;
+    }
+  }
+
+  @media (max-width: 55.99rem) {
+    .nav-toggle {
+      display: flex;
+    }
+
+    .primary-nav {
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      background: var(--color-bg);
+      border-bottom: 1px solid var(--color-border);
+      padding: 1rem 1.25rem 1.5rem;
+      z-index: 30;
+    }
+
+    .primary-nav.is-open {
+      display: block;
+    }
+
+    .nav-list {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .nav-sublist {
+      padding-left: 1rem;
+    }
+
+    .lang-switch {
+      display: inline-block;
+      margin-top: 1rem;
+    }
+  }
+</style>

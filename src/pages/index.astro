@@ -1,0 +1,157 @@
+---
+import { Font } from 'astro:assets';
+import { languages, localePath, langs, type Lang } from '../i18n/config';
+import '../styles/global.css';
+
+const heroImage = '/images/hero-background.jpg';
+const descriptions: Record<Lang, string> = {
+  de: 'Spanisch-deutsche Kita in Berlin-Friedrichshain',
+  es: 'Jardín infantil español-alemán en Berlín-Friedrichshain',
+};
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kita Pipilota</title>
+    <meta
+      name="description"
+      content="Kita Pipilota – spanisch-deutsche Kita in Berlin-Friedrichshain. Jardín infantil español-alemán."
+    />
+    <link rel="canonical" href={new URL('/', Astro.site).href} />
+    <link rel="alternate" hreflang="de" href={new URL('/de/', Astro.site).href} />
+    <link rel="alternate" hreflang="es" href={new URL('/es/', Astro.site).href} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <Font cssVariable="--font-body" preload />
+    <Font cssVariable="--font-heading" />
+    <Font cssVariable="--font-nav" />
+  </head>
+  <body class="chooser">
+    <main class="chooser__main">
+      <div class="chooser__hero" style={`--hero-image: url(${heroImage})`}>
+        <img
+          class="hero__logo"
+          src="/images/pipilota-logo.png"
+          alt="Kita Pipilota"
+          width="420"
+          height="200"
+        />
+      </div>
+      <div class="chooser__panel">
+        <h1 class="chooser__title">Kita Pipilota</h1>
+        <p class="chooser__subtitle">Bitte wählen Sie eine Sprache · Por favor, elige un idioma</p>
+        <div class="chooser__options">
+          {
+            langs.map((lang) => (
+              <a class="chooser__option" href={localePath(lang, 'home')} data-lang={lang}>
+                <span class="chooser__option-lang">{languages[lang].label}</span>
+                <span class="chooser__option-desc">{descriptions[lang]}</span>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </main>
+    <script>
+      const stored = localStorage.getItem('pipilota-lang');
+      if (stored) {
+        document
+          .querySelector(`.chooser__option[data-lang="${stored}"]`)
+          ?.classList.add('is-preferred');
+      }
+    </script>
+  </body>
+</html>
+
+<style>
+  .chooser {
+    min-height: 100vh;
+    display: grid;
+    background: var(--color-bg-alt);
+  }
+
+  .chooser__main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+
+  .chooser__hero {
+    position: relative;
+    min-height: 18rem;
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    background-image: var(--hero-image);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .chooser__hero .hero__logo {
+    width: min(70%, 22rem);
+  }
+
+  .chooser__panel {
+    text-align: center;
+    padding: 3rem 1.25rem;
+    max-width: 46rem;
+    margin-inline: auto;
+  }
+
+  .chooser__title {
+    font-family: var(--font-heading-stack);
+    font-size: 2rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .chooser__subtitle {
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+  }
+
+  .chooser__options {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 36rem) {
+    .chooser__options {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .chooser__option {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.5rem;
+    background: var(--color-bg);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+
+  .chooser__option:hover,
+  .chooser__option.is-preferred {
+    border-color: var(--color-accent-dark);
+    transform: translateY(-2px);
+  }
+
+  .chooser__option-lang {
+    font-family: var(--font-nav-stack);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1.1rem;
+  }
+
+  .chooser__option-desc {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+  }
+</style>

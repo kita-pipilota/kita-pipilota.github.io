@@ -1,0 +1,94 @@
+---
+import { localePath, ui, type Lang } from '../i18n/config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-title">Kita Pipilota</p>
+      <p>
+        Ebertystraße 43<br />
+        10249 Berlin – Friedrichshain
+      </p>
+    </div>
+    <div>
+      <p class="footer-title">{t.contact}</p>
+      <p>
+        {t.phone}: <a href="tel:+493042809879">(030) 42 80 98 79</a><br />
+        E-Mail: <a href="mailto:info@pipilota.de">info@pipilota.de</a>
+      </p>
+    </div>
+    <div>
+      <p class="footer-title">Links</p>
+      <ul class="footer-links">
+        <li><a href={localePath(lang, 'imprint')}>{lang === 'de' ? 'Impressum' : 'Aviso legal'}</a></li>
+        <li><a href={localePath(lang, 'privacy')}>{lang === 'de' ? 'Datenschutz' : 'Protección de datos'}</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© {year} Kita Pipilota</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border);
+    font-family: var(--font-serif-stack);
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    padding-top: 2.5rem;
+  }
+
+  .footer-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    padding-bottom: 1.5rem;
+  }
+
+  @media (min-width: 48rem) {
+    .footer-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .footer-title {
+    font-family: var(--font-nav-stack);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-links li {
+    margin-bottom: 0.25rem;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid var(--color-border);
+    padding-block: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .footer-bottom p {
+    margin: 0;
+  }
+</style>

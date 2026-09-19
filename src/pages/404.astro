@@ -1,0 +1,29 @@
+---
+import { Font } from 'astro:assets';
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 – Kita Pipilota</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <Font cssVariable="--font-body" preload />
+    <Font cssVariable="--font-heading" />
+    <Font cssVariable="--font-nav" />
+  </head>
+  <body>
+    <main class="container page-section">
+      <h1>Seite nicht gefunden</h1>
+      <p>Die gesuchte Seite existiert leider nicht.</p>
+      <p lang="es">La página solicitada no existe.</p>
+      <p>
+        <a class="button" href="/de/">Deutsch</a>
+        <a class="button" href="/es/">Español</a>
+      </p>
+    </main>
+  </body>
+</html>

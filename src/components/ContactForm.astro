@@ -1,0 +1,210 @@
+---
+import type { Lang } from '../i18n/config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const labels = {
+  de: {
+    heading: 'Anmeldung',
+    intro:
+      'Bitte füllen Sie das Formular aus. Wir melden uns bei Ihnen. Felder mit * sind Pflichtfelder.',
+    start: 'Gewünschtes Eintrittsdatum *',
+    child: 'Angaben zum Kind *',
+    firstName: 'Vorname',
+    lastName: 'Nachname',
+    birth: 'Geburtsdatum *',
+    gender: 'Geschlecht *',
+    female: 'weiblich',
+    male: 'männlich',
+    diverse: 'divers',
+    language: 'Zu Hause gesprochene Muttersprache *',
+    message:
+      'Bitte geben Sie Gründe an, warum Sie Ihr Kind in unserer Kita anmelden möchten *',
+    consent:
+      'Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu. *',
+    submit: 'Absenden',
+    required: '* Pflichtfeld',
+  },
+  es: {
+    heading: 'Inscripción',
+    intro:
+      'Por favor, rellene el formulario. Nos pondremos en contacto con usted. Los campos con * son obligatorios.',
+    start: 'Fecha deseada de inicio *',
+    child: 'Datos personales del niño/a *',
+    firstName: 'Nombre',
+    lastName: 'Apellido',
+    birth: 'Fecha de nacimiento *',
+    gender: 'Sexo *',
+    female: 'femenino',
+    male: 'masculino',
+    diverse: 'diverso',
+    language: 'Lengua materna hablada en casa *',
+    message:
+      'Por favor, indique los motivos por los que quiere inscribir a su hijo/a en nuestra Kita *',
+    consent:
+      'He leído la política de privacidad y acepto el tratamiento de mis datos. *',
+    submit: 'Enviar',
+    required: '* Campo obligatorio',
+  },
+} as const;
+
+const l = labels[lang];
+
+// TODO(form.taxi): replace with the real endpoint once the form is created.
+const FORM_ENDPOINT = 'https://form.taxi/s/REPLACE_WITH_ENDPOINT';
+---
+
+<section class="contact-form" aria-labelledby="form-heading">
+  <h2 id="form-heading">{l.heading}</h2>
+  <p>{l.intro}</p>
+  <p class="contact-form__required">{l.required}</p>
+
+  <form action={FORM_ENDPOINT} method="POST" accept-charset="UTF-8">
+    <div class="field">
+      <label for="start">{l.start}</label>
+      <input id="start" name="Gewünschtes Eintrittsdatum" type="date" required />
+    </div>
+
+    <fieldset>
+      <legend>{l.child}</legend>
+      <div class="field-row">
+        <div class="field">
+          <label for="first">{l.firstName}</label>
+          <input id="first" name="Vorname" type="text" autocomplete="given-name" required />
+        </div>
+        <div class="field">
+          <label for="last">{l.lastName}</label>
+          <input id="last" name="Nachname" type="text" autocomplete="family-name" required />
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="field">
+      <label for="birth">{l.birth}</label>
+      <input id="birth" name="Geburtsdatum" type="date" required />
+    </div>
+
+    <fieldset>
+      <legend>{l.gender}</legend>
+      <div class="radio-row">
+        <label><input type="radio" name="Geschlecht" value="weiblich" required /> {l.female}</label>
+        <label><input type="radio" name="Geschlecht" value="männlich" /> {l.male}</label>
+        <label><input type="radio" name="Geschlecht" value="divers" /> {l.diverse}</label>
+      </div>
+    </fieldset>
+
+    <div class="field">
+      <label for="language">{l.language}</label>
+      <input id="language" name="Muttersprache" type="text" required />
+    </div>
+
+    <div class="field">
+      <label for="message">{l.message}</label>
+      <textarea id="message" name="Nachricht" rows="5" required></textarea>
+    </div>
+
+    <div class="field field--check">
+      <label>
+        <input type="checkbox" name="Datenschutz" value="ja" required />
+        {l.consent}
+      </label>
+    </div>
+
+    <!-- Honeypot: real users leave this empty. -->
+    <div class="honeypot" aria-hidden="true">
+      <label>Website <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" /></label>
+    </div>
+
+    <button class="button" type="submit">{l.submit}</button>
+  </form>
+</section>
+
+<style>
+  .contact-form {
+    max-width: 46rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .contact-form__required {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+
+  .field {
+    margin-bottom: 1.25rem;
+  }
+
+  .field label,
+  legend {
+    display: block;
+    font-family: var(--font-nav-stack);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.35rem;
+  }
+
+  .field-row {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 36rem) {
+    .field-row {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  input[type='text'],
+  input[type='date'],
+  textarea {
+    width: 100%;
+    padding: 0.6rem 0.7rem;
+    font: inherit;
+    color: var(--color-text);
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+  }
+
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid var(--color-accent-dark);
+    outline-offset: 1px;
+  }
+
+  fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0 0 1.25rem;
+  }
+
+  .radio-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .radio-row label,
+  .field--check label {
+    font-family: var(--font-body-stack);
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    letter-spacing: 0;
+  }
+
+  .honeypot {
+    position: absolute;
+    left: -9999px;
+  }
+</style>

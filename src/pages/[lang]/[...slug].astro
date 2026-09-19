@@ -1,0 +1,42 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContactForm from '../../components/ContactForm.astro';
+import { langs, type Lang, type PageKey } from '../../i18n/config';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('pages');
+  return entries
+    .map((entry) => {
+      const [lang, ...rest] = entry.id.split('/');
+      const slug = rest.join('/');
+      if (!langs.includes(lang as Lang) || slug === 'home') return null;
+      return {
+        params: { lang, slug },
+        props: { entry },
+      };
+    })
+    .filter((p): p is NonNullable<typeof p> => p !== null);
+}
+
+interface Props {
+  entry: CollectionEntry<'pages'>;
+}
+
+const { entry } = Astro.props;
+const { lang } = Astro.params as { lang: Lang };
+const pageKey = entry.data.translationKey as PageKey;
+const isAdmission = pageKey === 'admission';
+const { Content } = await render(entry);
+---
+
+<BaseLayout lang={lang} pageKey={pageKey} title={entry.data.title} description={entry.data.description}>
+  <section class="page-section">
+    <div class="container">
+      <article class="prose">
+        <Content />
+      </article>
+      {isAdmission && <ContactForm lang={lang} />}
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,36 @@
+---
+import { getEntry, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { langs, type Lang } from '../../i18n/config';
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const entry = await getEntry('pages', `${lang}/home`);
+
+if (!entry) {
+  throw new Error(`Missing home content for locale "${lang}"`);
+}
+
+const { Content } = await render(entry);
+const heroImage = '/images/hero-background.jpg';
+---
+
+<BaseLayout lang={lang} pageKey="home" title={entry.data.title} description={entry.data.description}>
+  <section class="hero" style={`--hero-image: url(${heroImage})`}>
+    <img
+      class="hero__logo"
+      src="/images/home-hero.png"
+      alt="Kita Pipilota"
+      width="640"
+      height="260"
+    />
+  </section>
+  <section class="page-section">
+    <div class="container prose">
+      <Content />
+    </div>
+  </section>
+</BaseLayout>
