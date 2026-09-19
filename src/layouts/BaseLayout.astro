@@ -2,6 +2,7 @@
 import { Font } from 'astro:assets';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Lightbox from '../components/Lightbox.astro';
 import { languages, ui, alternatePath, type Lang, type PageKey } from '../i18n/config';
 import '../styles/global.css';
 
@@ -57,5 +58,6 @@ const t = ui[lang];
       <slot />
     </main>
     <Footer lang={lang} />
+    <Lightbox lang={lang} />
   </body>
 </html>

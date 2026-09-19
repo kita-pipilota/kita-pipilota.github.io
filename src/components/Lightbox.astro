@@ -1,0 +1,176 @@
+---
+import type { Lang } from '../i18n/config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const labels = {
+  de: { close: 'Schließen', prev: 'Zurück', next: 'Weiter', dialog: 'Bildergalerie' },
+  es: { close: 'Cerrar', prev: 'Anterior', next: 'Siguiente', dialog: 'Galería de imágenes' },
+} as const;
+
+const l = labels[lang];
+---
+
+<dialog id="lightbox" class="lightbox" aria-label={l.dialog}>
+  <button type="button" class="lightbox__close" aria-label={l.close}>×</button>
+  <button type="button" class="lightbox__nav lightbox__nav--prev" aria-label={l.prev}>‹</button>
+  <figure class="lightbox__figure">
+    <img class="lightbox__img" alt="" />
+    <figcaption class="lightbox__caption"></figcaption>
+  </figure>
+  <button type="button" class="lightbox__nav lightbox__nav--next" aria-label={l.next}>›</button>
+</dialog>
+
+<script>
+  const dialog = document.getElementById('lightbox') as HTMLDialogElement | null;
+  if (dialog) {
+    const imgEl = dialog.querySelector<HTMLImageElement>('.lightbox__img')!;
+    const captionEl = dialog.querySelector<HTMLElement>('.lightbox__caption')!;
+    const btnClose = dialog.querySelector<HTMLButtonElement>('.lightbox__close')!;
+    const btnPrev = dialog.querySelector<HTMLButtonElement>('.lightbox__nav--prev')!;
+    const btnNext = dialog.querySelector<HTMLButtonElement>('.lightbox__nav--next')!;
+
+    let items: HTMLImageElement[] = [];
+    let index = 0;
+
+    const show = (i: number) => {
+      if (!items.length) return;
+      index = (i + items.length) % items.length;
+      const img = items[index];
+      imgEl.src = img.currentSrc || img.src;
+      imgEl.alt = img.alt || '';
+      captionEl.textContent = img.alt || '';
+    };
+
+    const open = (list: HTMLImageElement[], i: number) => {
+      items = list;
+      show(i);
+      if (!dialog.open) dialog.showModal();
+      document.documentElement.style.overflow = 'hidden';
+    };
+
+    const close = () => {
+      if (dialog.open) dialog.close();
+    };
+
+    document.querySelectorAll<HTMLElement>('.gallery').forEach((gallery) => {
+      const imgs = Array.from(gallery.querySelectorAll('img'));
+      if (!imgs.length) return;
+      imgs.forEach((img, i) => {
+        img.addEventListener('click', () => open(imgs, i));
+      });
+    });
+
+    btnClose.addEventListener('click', close);
+    btnPrev.addEventListener('click', () => show(index - 1));
+    btnNext.addEventListener('click', () => show(index + 1));
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) close();
+    });
+    dialog.addEventListener('close', () => {
+      document.documentElement.style.overflow = '';
+    });
+    dialog.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowLeft') show(index - 1);
+      if (event.key === 'ArrowRight') show(index + 1);
+    });
+  }
+</script>
+
+<style>
+  .lightbox {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    max-width: none;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .lightbox::backdrop {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  .lightbox__figure {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    gap: 0.75rem;
+  }
+
+  .lightbox__img {
+    max-width: 90vw;
+    max-height: 82vh;
+    display: block;
+    border-radius: 4px;
+    background: #111;
+  }
+
+  .lightbox__caption {
+    color: #fff;
+    font-family: var(--font-nav-stack);
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  .lightbox__close,
+  .lightbox__nav {
+    position: fixed;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    color: #1a1a1a;
+    font-size: 1.75rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .lightbox__close:hover,
+  .lightbox__nav:hover {
+    background: #fff;
+  }
+
+  .lightbox__close {
+    top: 1rem;
+    right: 1.25rem;
+  }
+
+  .lightbox__nav {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .lightbox__nav--prev {
+    left: 1.25rem;
+  }
+
+  .lightbox__nav--next {
+    right: 1.25rem;
+  }
+
+  @media (max-width: 40rem) {
+    .lightbox__nav {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.4rem;
+    }
+
+    .lightbox__nav--prev {
+      left: 0.5rem;
+    }
+
+    .lightbox__nav--next {
+      right: 0.5rem;
+    }
+  }
+</style>
