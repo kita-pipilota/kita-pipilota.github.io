@@ -27,7 +27,7 @@ Diese Website wird über **GitHub Pages** (GitHub Inc., 88 Colin P. Kelly Jr. St
 
 Wenn Sie unser Anmeldeformular nutzen, verarbeiten wir die von Ihnen angegebenen Daten (z. B. Name des Kindes, Geburtsdatum, Geschlecht, gewünschtes Eintrittsdatum, Muttersprache, Nachricht) ausschließlich zur Bearbeitung Ihrer Anfrage bzw. Anmeldung. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. Ihre Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO.
 
-Für den technischen Versand des Formulars nutzen wir den Dienst **[form.taxi](https://form.taxi)** ([Anbieter und Anschrift eintragen]). Die Übermittlung erfolgt verschlüsselt. Die Daten werden nach Abschluss der Bearbeitung gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+Für den technischen Empfang und Versand des Formulars nutzen wir den Dienst **[form.taxi](https://form.taxi)**, betrieben von **wrkt\*biz Reinhard Söllradl, 4070 Eferding, Österreich**. Der Dienst wird in einem Rechenzentrum in Deutschland gehostet (ALL-INKL.COM, Dresden); eine Übermittlung in Drittländer findet nicht statt. Form.taxi setzt zum Schutz vor Spam **FriendlyCaptcha** (Friendly Captcha GmbH, Woerthsee, Deutschland) ein und versendet Benachrichtigungs-E-Mails über **Mailjet**. Die übermittelten Formulardaten werden bei form.taxi für maximal ein Jahr gespeichert und danach gelöscht. Mit den eingesetzten Dienstleistern bestehen Auftragsverarbeitungsverträge. Die Übermittlung erfolgt verschlüsselt (TLS).
 
 ### 4. Schriftarten
 

@@ -27,7 +27,7 @@ Este sitio web está alojado en **GitHub Pages** (GitHub Inc., 88 Colin P. Kelly
 
 Cuando utiliza nuestro formulario de inscripción, tratamos los datos que nos facilita (p. ej. nombre del niño/a, fecha de nacimiento, sexo, fecha deseada de inicio, lengua materna, mensaje) exclusivamente para tramitar su solicitud o inscripción. La base jurídica es el art. 6 apdo. 1 lit. b RGPD (medidas precontractuales) o su consentimiento conforme al art. 6 apdo. 1 lit. a RGPD.
 
-Para el envío técnico del formulario utilizamos el servicio **[form.taxi](https://form.taxi)** ([introducir proveedor y dirección]). La transmisión se realiza de forma cifrada. Los datos se eliminan una vez finalizado el trámite, salvo que existan obligaciones legales de conservación.
+Para la recepción y el envío técnico del formulario utilizamos el servicio **[form.taxi](https://form.taxi)**, operado por **wrkt\*biz Reinhard Söllradl, 4070 Eferding, Austria**. El servicio se aloja en un centro de datos en Alemania (ALL-INKL.COM, Dresde); no se realiza ninguna transferencia a terceros países. Form.taxi utiliza **FriendlyCaptcha** (Friendly Captcha GmbH, Woerthsee, Alemania) como protección contra el spam y envía los correos de notificación a través de **Mailjet**. Los datos enviados a través del formulario se almacenan en form.taxi durante un máximo de un año y después se eliminan. Existen contratos de encargo de tratamiento con los proveedores utilizados. La transmisión se realiza de forma cifrada (TLS).
 
 ### 4. Tipografías
 

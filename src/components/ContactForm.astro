@@ -54,8 +54,14 @@ const labels = {
 
 const l = labels[lang];
 
-// TODO(form.taxi): replace with the real endpoint once the form is created.
-const FORM_ENDPOINT = 'https://form.taxi/s/REPLACE_WITH_ENDPOINT';
+// form.taxi endpoints. The German form is currently used for both languages;
+// create a separate Spanish form and add it here if Spanish system messages
+// (validation errors / success page) are wanted.
+const endpoints: Record<Lang, string> = {
+  de: 'https://form.taxi/s/khi9ci2t',
+  es: 'https://form.taxi/s/khi9ci2t',
+};
+const FORM_ENDPOINT = endpoints[lang];
 ---
 
 <section class="contact-form" aria-labelledby="form-heading">
