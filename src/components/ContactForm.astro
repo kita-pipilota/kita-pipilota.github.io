@@ -1,5 +1,5 @@
 ---
-import type { Lang } from '../i18n/config';
+import { localePath, type Lang } from '../i18n/config';
 
 interface Props {
   lang: Lang;
@@ -24,8 +24,9 @@ const labels = {
     language: 'Zu Hause gesprochene Muttersprache *',
     message:
       'Bitte geben Sie Gründe an, warum Sie Ihr Kind in unserer Kita anmelden möchten *',
-    consent:
-      'Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu. *',
+    consentBefore: 'Ich habe die ',
+    consentLink: 'Datenschutzerklärung',
+    consentAfter: ' gelesen und stimme der Verarbeitung meiner Daten zu. *',
     submit: 'Absenden',
     required: '* Pflichtfeld',
   },
@@ -45,14 +46,16 @@ const labels = {
     language: 'Lengua materna hablada en casa *',
     message:
       'Por favor, indique los motivos por los que quiere inscribir a su hijo/a en nuestra Kita *',
-    consent:
-      'He leído la política de privacidad y acepto el tratamiento de mis datos. *',
+    consentBefore: 'He leído la ',
+    consentLink: 'política de privacidad',
+    consentAfter: ' y acepto el tratamiento de mis datos. *',
     submit: 'Enviar',
     required: '* Campo obligatorio',
   },
 } as const;
 
 const l = labels[lang];
+const privacyUrl = localePath(lang, 'privacy');
 
 // form.taxi endpoints. The German form is currently used for both languages;
 // create a separate Spanish form and add it here if Spanish system messages
@@ -116,7 +119,7 @@ const FORM_ENDPOINT = endpoints[lang];
     <div class="field field--check">
       <label>
         <input type="checkbox" name="Datenschutz" value="ja" required />
-        {l.consent}
+        {l.consentBefore}<a href={privacyUrl} target="_blank" rel="noopener">{l.consentLink}</a>{l.consentAfter}
       </label>
     </div>
 

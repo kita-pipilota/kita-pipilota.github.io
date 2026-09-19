@@ -56,12 +56,19 @@ const descriptions: Record<Lang, string> = {
       </div>
     </main>
     <script>
-      const stored = localStorage.getItem('pipilota-lang');
+      const KEY = 'pipilota-lang';
+      const stored = localStorage.getItem(KEY);
       if (stored) {
         document
           .querySelector(`.chooser__option[data-lang="${stored}"]`)
           ?.classList.add('is-preferred');
       }
+      document.querySelectorAll('.chooser__option').forEach((el) => {
+        el.addEventListener('click', () => {
+          const lang = el.getAttribute('data-lang');
+          if (lang) localStorage.setItem(KEY, lang);
+        });
+      });
     </script>
   </body>
 </html>
