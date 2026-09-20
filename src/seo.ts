@@ -25,6 +25,14 @@ export const structuredData = {
       },
       geo: { '@type': 'GeoCoordinates', latitude: 52.5246, longitude: 13.4528 },
       areaServed: { '@type': 'City', name: 'Berlin' },
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: '07:45',
+          closes: '17:00',
+        },
+      ],
       knowsLanguage: ['de', 'es'],
       sameAs: ['https://www.daks-berlin.de', 'https://strohhalm-ev.de/'],
     },

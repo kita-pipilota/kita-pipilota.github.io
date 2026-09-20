@@ -1,18 +1,18 @@
 ---
 title: "ErzieherInnen"
-description: "ErzieherInnen Sechs ErzieherInnen, vier spanische MuttersprachlerInnen und drei deutsche MuttersprachlerInnen, arbeiten mit den Kindern. Die ErzieherInnen bringen besondere Qualifikationen..."
+description: "Das Team der Kita Pipilota: sechs ErzieherInnen – spanische und deutsche MuttersprachlerInnen – stellen sich vor."
 translationKey: "educators"
 ---
 
-Sechs ErzieherInnen, vier spanische MuttersprachlerInnen und drei deutsche MuttersprachlerInnen, arbeiten mit den Kindern. Die ErzieherInnen bringen besondere Qualifikationen (Umwelt-, Kunst-, Tanz- und Psychopädagogik) mit.
+Sechs ErzieherInnen, vier spanische und zwei deutsche MuttersprachlerInnen, arbeiten mit den Kindern. Die ErzieherInnen bringen besondere Qualifikationen (Umwelt-, Kunst-, Tanz- und Psychopädagogik) mit.
 
 ## Emma Juan Uriol
 
-Seit 1997 Erzieherin. In Spanien arbeitete sie in Kindergärten und nahm an unterschiedlichen Projekten zur Spracherziehung von Kindern teil. Absolviertes Hochschulstudium als Erzieherin (1997) und als Psychopädagogin (2000).Förderung der Sprachentwicklung der Kinder in spielerischer Form.
+Seit 1997 Erzieherin. In Spanien arbeitete sie in Kindergärten und nahm an unterschiedlichen Projekten zur Spracherziehung von Kindern teil. Absolviertes Hochschulstudium als Erzieherin (1997) und als Psychopädagogin (2000). Förderung der Sprachentwicklung der Kinder in spielerischer Form.
 
 ## Ute Essig
 
-Seit 1985 Erzieherin, mehrfache Tätigkeiten in multikulturellen und integrativen Einrichtungen. Absolviertes Kunststudium und mehrjähriger Aufenthalt in London. Dort Leiterin zahlreicher Kunstworkshops für Kinder und Jugendliche. Seit Juli 2004 bei Pipilota. Gezielte Angebote zur Förderung der Kreativität.
+Seit 1985 Erzieherin, mehrfache Tätigkeiten in multikulturellen und integrativen Einrichtungen. Absolviertes Kunststudium und mehrjähriger Aufenthalt in London. Dort Leiterin zahlreicher Kunstworkshops für Kinder und Jugendliche. Seit Juli 2004 bei Pipilota. Gezielte Angebote zur Förderung der Kreativität.
 
 ## Tiare
 
@@ -24,8 +24,8 @@ Seit meiner Kindheit begeistere ich mich für die frühkindliche Bildung. Ich ha
 
 ## Laura
 
-Ich bin Laura, Sozialarbeiterin und Erzieherin.Der soziale Bereich war schon immer meine Stärke, und durch die Arbeit mit Kindern habe ich den Reichtum und die Tiefe der Welt der Kinder entdeckt. Ihre Entwicklung zu begleiten hat mir bestätigt, wie wichtig eine Erziehung ist, die auf Selbstständigkeit, Reflexion, Respekt und Selbsterkenntnis als Grundpfeiler der Entwicklung basiert.
+Ich bin Laura, Sozialarbeiterin und Erzieherin. Der soziale Bereich war schon immer meine Stärke, und durch die Arbeit mit Kindern habe ich den Reichtum und die Tiefe der Welt der Kinder entdeckt. Ihre Entwicklung zu begleiten hat mir bestätigt, wie wichtig eine Erziehung ist, die auf Selbstständigkeit, Reflexion, Respekt und Selbsterkenntnis als Grundpfeiler der Entwicklung basiert.
 
 ## Elena Duran
 
-Umfangreiches umweltpädagogisches Wissen und Erfahrung in der Arbeit mit altersgemischten Gruppen. Regelmäßige Waldtage in der Umgebung Berlins, tägliches, wetterunabhängiges Rausgehen.
+Umfangreiches umweltpädagogisches Wissen und Erfahrung in der Arbeit mit altersgemischten Gruppen. Regelmäßige Waldtage in der Umgebung Berlins, tägliches, wetterunabhängiges Rausgehen.

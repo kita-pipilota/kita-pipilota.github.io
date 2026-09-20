@@ -1,6 +1,6 @@
 ---
 title: "Konzept"
-description: "Bild vom Kind ​ Das Kind ist eine eigenständige und selbstbestimmte Persönlichkeit, das sich in einer Gruppe entwickelt. Es in seiner Einzigartigkeit in unterschiedlichen Gruppenstrukturen zu..."
+description: "Das pädagogische Konzept der Kita Pipilota: Bild vom Kind, Eingewöhnung, bilinguale Sprachförderung, Kinderyoga, Wald- und Medienpädagogik."
 translationKey: "concept"
 ---
 

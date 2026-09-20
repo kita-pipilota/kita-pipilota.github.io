@@ -10,6 +10,10 @@ translationKey: "location"
 - 📩 **Schreiben Sie uns:** [info@pipilota.de](mailto:info@pipilota.de)
 - 📍 **Adresse:** Ebertystraße 43, 10249 Berlin – Friedrichshain
 
+### Öffnungszeiten
+
+Montag bis Freitag: 7:45–17:00 Uhr
+
 ### Anfahrt
 
 - **Straßenbahn:** M10, Straßmannstraße

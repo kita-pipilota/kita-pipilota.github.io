@@ -1,11 +1,10 @@
 export const languages = {
-  de: { label: 'Deutsch', htmlLang: 'de', flag: 'DE' },
-  es: { label: 'Español', htmlLang: 'es', flag: 'ES' },
+  de: { label: 'Deutsch', htmlLang: 'de' },
+  es: { label: 'Español', htmlLang: 'es' },
 } as const;
 
 export type Lang = keyof typeof languages;
 export const langs = Object.keys(languages) as Lang[];
-export const defaultLang: Lang = 'de';
 
 type Localized<T> = Record<Lang, T>;
 
@@ -83,42 +82,16 @@ export const ui = {
   de: {
     skipToContent: 'Zum Inhalt springen',
     menu: 'Menü',
-    chooseTitle: 'Willkommen bei der Kita Pipilota',
-    chooseSubtitle: 'Bitte wählen Sie eine Sprache',
-    otherLanguages: 'Andere Sprachen',
     contact: 'Kontakt',
     phone: 'Telefon',
-    address: 'Adresse',
-    directions: 'Anfahrt',
-    download: 'Herunterladen',
-    required: 'Pflichtfeld',
-    submit: 'Absenden',
-    formIntro: 'Anmeldung',
-    backHome: 'Zur Startseite',
-    notFound: 'Seite nicht gefunden',
-    notFoundText: 'Die gesuchte Seite existiert leider nicht.',
   },
   es: {
     skipToContent: 'Saltar al contenido',
     menu: 'Menú',
-    chooseTitle: 'Bienvenidxs a la Kita Pipilota',
-    chooseSubtitle: 'Por favor, elige un idioma',
-    otherLanguages: 'Otros idiomas',
     contact: 'Contacto',
     phone: 'Teléfono',
-    address: 'Dirección',
-    directions: 'Cómo llegar',
-    download: 'Descargar',
-    required: 'Campo obligatorio',
-    submit: 'Enviar',
-    formIntro: 'Inscripción',
-    backHome: 'Volver al inicio',
-    notFound: 'Página no encontrada',
-    notFoundText: 'La página solicitada no existe.',
   },
 } satisfies Record<Lang, Record<string, string>>;
-
-export type UiKey = keyof (typeof ui)['de'];
 
 /** Absolute site path for a page in a given language, with trailing slash. */
 export function localePath(lang: Lang, key: PageKey): string {
@@ -130,11 +103,4 @@ export function localePath(lang: Lang, key: PageKey): string {
 export function alternatePath(lang: Lang, key: PageKey): string {
   const other: Lang = lang === 'de' ? 'es' : 'de';
   return localePath(other, key);
-}
-
-/** Reverse lookup: language + slug -> page key. */
-export function keyForSlug(lang: Lang, slug: string): PageKey | undefined {
-  return (Object.keys(pageRegistry) as PageKey[]).find(
-    (key) => pageRegistry[key][lang].slug === slug,
-  );
 }
