@@ -1,9 +1,8 @@
 ---
-title: "Impressum"
-description: "Impressum und Anbieterkennzeichnung der Kita Pipilota."
-translationKey: "imprint"
+title: Impressum
+description: Impressum und Anbieterkennzeichnung der Kita Pipilota.
+translationKey: imprint
 ---
-
 ## Angaben gemäß § 5 DDG
 
 **Kita Pipilota e.V.**  
@@ -11,7 +10,7 @@ Ebertystraße 43
 10249 Berlin
 
 **Vertreten durch den Vorstand:**  
-[Name(n) der/des Vertretungsberechtigten]
+[Name des Vertretungsberechtigten]
 
 **Kontakt:**  
 Telefon: [(030) 42 80 98 79](tel:+493042809879)  
