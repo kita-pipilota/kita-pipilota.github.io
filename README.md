@@ -35,6 +35,33 @@ translationKey: "dates"
 - `description` wird für Suchmaschinen verwendet.
 - `translationKey` verbindet die deutsche und die spanische Seite. **Nicht ändern.**
 
+### Bequem im Browser bearbeiten (Pages CMS)
+
+Für nicht-technische Personen gibt es [Pages CMS](https://pagescms.org) – eine
+Web-Oberfläche, die dieselben Markdown-Dateien bearbeitet und Änderungen direkt
+in dieses Repository schreibt (die Seite wird danach automatisch neu gebaut).
+
+Einmalige Einrichtung:
+
+1. Auf [pagescms.org](https://pagescms.org) mit GitHub anmelden.
+2. Die **Pages CMS GitHub App** für das Repository
+   `kita-pipilota/kita-pipilota.github.io` installieren.
+3. Fertig – die Konfiguration liegt in [`.pages.yml`](./.pages.yml).
+
+Danach sehen Bearbeiter:innen links die Sammlungen **Seiten (Deutsch)** und
+**Páginas (Español)** und können Titel, Beschreibung und Text jeder bestehenden
+Seite ändern. Neue Seiten anlegen, umbenennen, löschen sowie Navigation und
+Layout sind bewusst gesperrt.
+
+Hinweise:
+
+- Der `translationKey` ist schreibgeschützt – bitte so lassen.
+- Seiten mit Bildergalerien (`Haus`, `Instalaciones`, `Kooperationen`,
+  `Colabora`) enthalten im Quelltext einen `<div class="gallery">`-Block. Im
+  Zweifel diese Seiten nicht anfassen oder die **Quelltext-Ansicht** verwenden.
+- Bearbeiter:innen brauchen ein GitHub-Konto mit Zugriff auf das Repository
+  (als Collaborator einladen).
+
 ### Neue Seite hinzufügen
 
 1. Datei in `src/content/pages/de/` und `src/content/pages/es/` anlegen.

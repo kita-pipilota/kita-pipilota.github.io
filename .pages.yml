@@ -1,0 +1,89 @@
+# Pages CMS configuration (https://pagescms.org)
+# Lets non-technical editors change the text of the existing German and
+# Spanish pages. Structural changes (creating, renaming, deleting pages,
+# navigation, layout) are intentionally disabled.
+
+media:
+  - name: images
+    label: Bilder / Imágenes
+    input: public/images
+    output: /images
+    categories: [image]
+  - name: downloads
+    label: PDFs / Dokumente
+    input: public/downloads
+    output: /downloads
+    categories: [document]
+
+content:
+  - name: pages_de
+    label: Seiten (Deutsch)
+    type: collection
+    path: src/content/pages/de
+    format: yaml-frontmatter
+    operations:
+      create: false
+      rename: false
+      delete: false
+    view:
+      primary: title
+      sort: title
+      order: asc
+    fields:
+      - name: title
+        label: Titel
+        type: string
+        required: true
+        description: Erscheint im Browser-Tab und als Überschrift der Seite.
+      - name: description
+        label: Beschreibung (für Suchmaschinen)
+        type: text
+        description: Kurzer Text für Google und Vorschauen. Kann leer bleiben.
+      - name: translationKey
+        label: Übersetzungsschlüssel (bitte nicht ändern)
+        type: string
+        readonly: true
+        description: Verknüpft diese Seite mit der spanischen Version. Nicht ändern.
+      - name: body
+        label: Inhalt
+        type: rich-text
+        options:
+          format: markdown
+          switcher: true
+          media: images
+
+  - name: pages_es
+    label: Páginas (Español)
+    type: collection
+    path: src/content/pages/es
+    format: yaml-frontmatter
+    operations:
+      create: false
+      rename: false
+      delete: false
+    view:
+      primary: title
+      sort: title
+      order: asc
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+        description: Aparece en la pestaña del navegador y como encabezado.
+      - name: description
+        label: Descripción (para buscadores)
+        type: text
+        description: Texto breve para Google y vistas previas. Puede quedar vacío.
+      - name: translationKey
+        label: Clave de traducción (no cambiar)
+        type: string
+        readonly: true
+        description: Vincula esta página con la versión alemana. No cambiar.
+      - name: body
+        label: Contenido
+        type: rich-text
+        options:
+          format: markdown
+          switcher: true
+          media: images
