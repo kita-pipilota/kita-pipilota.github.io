@@ -6,7 +6,7 @@ translationKey: "kita"
 
 ## Quiénes Somos
 
-El Jardín Infantil español-alemán **“PIPILOTA”** es gestionado por la asociación del mismo nombre y está ubicado en el distrito de Friedrichshain, en Berlín.
+El Jardín Infantil español-alemán **“PIPILOTA”** es gestionado por [la asociación del mismo nombre](/de/impressum/) y está ubicado en el distrito de Friedrichshain, en Berlín.
 
 - **Enfoque Bilingüe:** El equipo pedagógico incluye educadoras cuyo idioma materno es el español o el alemán.
 - **Comunidad Diversa:** Atendemos a un máximo de 36 niñxs (de 1 año hasta la edad escolar) provenientes de diversos distritos de Berlín, distintas estructuras familiares y nacionalidades.

@@ -6,7 +6,7 @@ translationKey: "kita"
 
 ## Über uns
 
-Wir sind die spanisch-deutsche Kindertagesstätte **„PIPILOTA“**; Träger ist der gleichnamige Verein. Unsere Kita befindet sich im Bezirk Friedrichshain in Berlin.
+Wir sind die spanisch-deutsche Kindertagesstätte **„PIPILOTA“**; Träger ist der [gleichnamige Verein](/de/impressum/). Unsere Kita befindet sich im Bezirk Friedrichshain in Berlin.
 
 - **Bilingualer Ansatz:** Das pädagogische Team besteht aus Erzieherinnen, deren Muttersprache Spanisch oder Deutsch ist.
 - **Diverse Gemeinschaft:** Wir betreuen maximal 36 Kinder (von 1 Jahr bis zum Schulalter) aus verschiedenen Stadtteilen Berlins, mit unterschiedlichen Familienstrukturen und Nationalitäten.
