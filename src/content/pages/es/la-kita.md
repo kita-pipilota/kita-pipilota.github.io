@@ -133,7 +133,7 @@ Alba es una apasionada de la educación infantil desde muy pequeña. Ha realizad
 
 #### Laura
 
-Laura es trabajadora social y educadora infantil. El ámbito social ha sido siempre su punto fuerte, y descubrir el trabajo con niñes le permitió comprender la riqueza y la profundidad del mundo infantil. Acompañar sus procesos le confirmó la importancia de una educación basada en la autonomía, la reflexión, el respeto y el conocimiento de una misma como pilares fundamentales del desarrollo.
+Laura es trabajadora social y educadora infantil. El ámbito social ha sido siempre su punto fuerte, y descubrir el trabajo con niñxs le permitió comprender la riqueza y la profundidad del mundo infantil. Acompañar sus procesos le confirmó la importancia de una educación basada en la autonomía, la reflexión, el respeto y el conocimiento de una misma como pilares fundamentales del desarrollo.
 
 ### Apoyo
 
