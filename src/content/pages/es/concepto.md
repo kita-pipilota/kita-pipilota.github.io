@@ -8,4 +8,4 @@ En la Kita Pipilota entendemos a cada niñx como una personalidad autónoma que 
 
 ## Concepto pedagógico (PDF)
 
-[Descargar el concepto pedagógico completo (PDF, 216 KB)](/downloads/konzept-pipilota-es.pdf)
+[Descargar el concepto pedagógico completo (PDF, 148 KB)](/downloads/konzept-pipilota-es.pdf)
