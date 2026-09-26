@@ -1,18 +1,21 @@
 ---
 title: "Kita"
-description: "Die spanisch-deutsche Kita Pipilota in Berlin-Friedrichshain: Träger, Lage, Einrichtungen, Tagesablauf und Team."
+description: "Die spanisch-deutsche Kita Pipilota in Berlin-Friedrichshain: Über uns, Lage, Räume, Tagesablauf und Team."
 translationKey: "kita"
 ---
 
-## Träger
+## Über uns
 
-Wir sind die spanisch-deutsche Kindertagesstätte „PIPILOTA“, und der Träger ist der gleichnamige Verein. Uns findet man im Bezirk Friedrichshain.
+Wir sind die spanisch-deutsche Kindertagesstätte **„PIPILOTA“**; Träger ist der gleichnamige Verein. Unsere Kita befindet sich im Bezirk Friedrichshain in Berlin.
 
-## Lage, Bau, Größe
+- **Bilingualer Ansatz:** Das pädagogische Team besteht aus Erzieherinnen, deren Muttersprache Spanisch oder Deutsch ist.
+- **Diverse Gemeinschaft:** Wir betreuen maximal 36 Kinder (von 1 Jahr bis zum Schulalter) aus verschiedenen Stadtteilen Berlins, mit unterschiedlichen Familienstrukturen und Nationalitäten.
+- **Freies Spiel:** Die Gestaltung der Räume fördert die Kreativität und Fantasie der Kinder und lädt sie ein, die Spielräume nach ihren Bedürfnissen zu verändern.
 
-Die Räumlichkeiten unserer Kindertagesstätte bieten eine Kapazität für maximal 36 Kinder (im Alter von eineinhalb bis zum Schulalter). Zu unserer Kindertagesstätte gehört ein Gartengründstück, welches ca. 100 m vom Haus entfernt liegt. In räumlicher Nähe befindet sich die Hausburgschule mit integrierter staatlicher Europaschule Spanisch-Deutsch.
+## Lage und Umgebung
 
-Ein neu gestalteter Spiel- und Freizeitbereich „Hausburgspielplatz“ sowie umliegende Spielplätze und Parkanlagen sind in unmittelbarer Nähe. Wir arbeiten mit Kindern von 1 Jahr bis zum Eintritt des Schulbeginns. Sie kommen aus verschiedenen Stadtteilen Berlins, aus unterschiedlichen Familienstrukturen sowie kulturellen und sozialen Hintergründen. In unserer Kita sind verschiedene Nationalitäten vertreten.
+- **Adresse:** Unsere Kita befindet sich in der Ebertystraße 43 im Hausburgviertel in Berlin-Friedrichshain.
+- **Nahumgebung:** In unmittelbarer Nähe befinden sich Erholungsgebiete, Parks und neue Spielplätze sowie der neu gestaltete „Hausburgspielplatz“. Außerdem sind wir in der Nähe der Hausburgschule (integriert in die spanisch-deutsche Europaschule).
 
 ## Die Kita
 
@@ -34,6 +37,16 @@ Die Funktionsräume sind:
 Im Bau- bzw. Konstruktionsraum sowie im Rollenspielraum sind elementare Spielutensilien vorzufinden. Bau- und Rollenspielraum werden am Mittag zu Ruhe- und Schlafräumen umfunktioniert.
 
 Die Räume können von den Kindern vielfältig genutzt werden, um ihre Spielideen zu verwirklichen und ihrer Kreativität und Fantasie freien Lauf zu lassen. Dabei haben sie die Möglichkeit, die Räume im Spiel nach ihren Bedürfnissen umzugestalten. Das ist ein Ergebnis unseres Projektes „Spielzeugfreie Zeit“, das wir 2014 gemeinsam mit Eltern und Kindern durchgeführt haben. Im Atelier befinden sich Farben, Stifte, Scheren, Papier, Alltags- und Naturmaterialien, mit ihnen arbeiten die Kinder angeleitet und frei. In den anderen Räumen gibt es: Theatergarderobe mit Verkleidungssachen, verschiedene Tücher, Stoffe, Kissen, Decken, Holzbausteine, Schaumstoffbausteine, Musikinstrumente und Bücher.
+
+In den Räumen gibt es folgende Angebote:
+
+- Freies Spiel
+- Rollen- und Verkleidungsspiel
+- Bauen
+- Lesen
+- Malen und Gestalten
+- Musik und Tanz
+- Brettspiele
 
 <div class="gallery">
   <img src="/images/07-pipilota-spielkraum1.jpg" alt="Spielraum" loading="lazy" />

@@ -1,23 +1,21 @@
 ---
 title: "La Kita"
-description: "La Kita Pipilota en Berlín-Friedrichshain: asociación, instalaciones, rutina diaria y equipo del jardín infantil español-alemán."
+description: "La Kita Pipilota en Berlín-Friedrichshain: quiénes somos, ubicación, instalaciones, rutina diaria y equipo del jardín infantil español-alemán."
 translationKey: "kita"
 ---
 
-## La Guardería: Quiénes Somos
+## Quiénes Somos
 
-_Nuestra Misión / Concepto_
-
-El Jardín Infantil español-alemán **“PIPILOTA”** es gestionado por la asociación del mismo nombre y está ubicado en Friedrichshain, Berlín.
+El Jardín Infantil español-alemán **“PIPILOTA”** es gestionado por la asociación del mismo nombre y está ubicado en el distrito de Friedrichshain, en Berlín.
 
 - **Enfoque Bilingüe:** El equipo pedagógico incluye educadoras cuyo idioma materno es el español o el alemán.
 - **Comunidad Diversa:** Atendemos a un máximo de 36 niñxs (de 1 año hasta la edad escolar) provenientes de diversos distritos de Berlín, distintas estructuras familiares y nacionalidades.
-- **Filosofía de Juego Libre:** La configuración de las habitaciones fomenta la creatividad y fantasía de lxs niñxs, permitiéndoles modificar los espacios de juego según sus necesidades (resultado del proyecto "juego libre de juguetes" de 2014).
+- **Filosofía de Juego Libre:** La configuración de las habitaciones fomenta la creatividad y fantasía de lxs niñxs, permitiéndoles modificar los espacios de juego según sus necesidades.
 
 ## Ubicación y entorno
 
 - **Dirección:** El jardín infantil está situado en la Ebertystr. 43, en el Hausburgviertel de Berlin-Friedrichshain.
-- **Entorno cercano:** En las inmediaciones se encuentran zonas de recreo, parques y nuevos patios de juego. Además, estamos cerca del colegio "Hausburg" (integrado con la escuela pública de Europa español-alemán).
+- **Entorno cercano:** En las inmediaciones se encuentran zonas de recreo, parques y nuevos patios de juego, así como el recientemente rediseñado “Hausburgspielplatz”. Además, estamos cerca del colegio "Hausburg" (integrado con la escuela pública de Europa español-alemán).
 
 ## La Kita
 
@@ -37,6 +35,8 @@ Las habitaciones son:
 - Biblioteca y sala matutina con juegos de primaria
 
 Hay dos habitaciones con material básico que también se utilizan para distintas funciones. En la sala de construcciones, así como en la sala de juegos de rol, se encuentran también utensilios de juego elementales. La sala de movimiento, así como la sala de juegos de rol, se transforman al mediodía en salas de descanso y siesta.
+
+Los espacios pueden ser utilizados por lxs niñxs de múltiples maneras para realizar sus ideas de juego y dar rienda suelta a su creatividad y fantasía, pudiendo transformarlos según sus necesidades. Es el resultado de nuestro proyecto "tiempo sin juguetes", que realizamos en 2014 junto con padres, madres y niñxs. En el taller hay pinturas, rotuladores, tijeras, papel y materiales cotidianos y naturales, con los que lxs niñxs trabajan de forma guiada y libre. En las demás habitaciones hay: vestuario teatral con disfraces, telas, cojines, mantas, bloques de madera y de espuma, instrumentos musicales y libros.
 
 En las habitaciones se encuentran las siguientes ofertas:
 
@@ -100,9 +100,11 @@ Una vez a la semana, todxs lxs niñxs a partir de los 3 años realizan su jornad
 - 15:35–16:45 h: Juego libre / Hora de recogida
 - 17:00 h: Cierre del jardín infantil
 
+El programa diario da a lxs niñxs un ritmo que les ofrece orientación y seguridad. Se ruega no interrumpir a lxs niñxs durante las comidas y el círculo matutino.
+
 ## Nuestro Equipo
 
-El equipo pedagógico de la asociación "Pipilota" es el responsable de crear e implementar el concepto educativo.
+El equipo es el grupo de trabajo pedagógico de la asociación de la Kita „Pipilota“, que elabora y aplica el concepto. Forman parte del equipo el personal pedagógico y el personal de servicios.
 
 ### Personal Docente
 
@@ -136,6 +138,6 @@ Laura es trabajadora social y educadora infantil. El ámbito social ha sido siem
 
 Personal de limpieza, ayudante de cocina y practicantes ocasionales.
 
-### Compromiso con la Calidad
+### Calidad y colaboración
 
-El equipo realiza reuniones semanales, cursos de formación continua, supervisiones y cuatro días anuales dedicados a la concepción del concepto pedagógico.
+El equipo se reúne cada lunes de 16:30 a 18:30 para la reunión de equipo, una condición indispensable para nuestro trabajo pedagógico. Para mejorar continuamente la calidad de nuestro trabajo y aumentar la motivación, cada año tienen lugar cuatro días de concepto, supervisión y formaciones.
