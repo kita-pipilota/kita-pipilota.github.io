@@ -7,6 +7,7 @@ export default defineConfig({
   site: 'https://pipilota.de',
   integrations: [
     sitemap({
+      lastmod: new Date(),
       i18n: {
         defaultLocale: 'de',
         locales: { de: 'de', es: 'es' },
