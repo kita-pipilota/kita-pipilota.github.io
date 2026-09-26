@@ -53,8 +53,8 @@ export type PageKey = keyof typeof pageRegistry;
 
 /** Top-level navigation, in order. */
 export const nav: PageKey[] = [
-  'concept',
   'kita',
+  'concept',
   'admission',
   'dates',
   'cooperation',
