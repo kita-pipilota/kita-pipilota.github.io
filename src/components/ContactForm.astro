@@ -21,6 +21,9 @@ const labels = {
     male: 'männlich',
     diverse: 'divers',
     language: 'Zu Hause gesprochene Muttersprache *',
+    parent: 'Name der/des Erziehungsberechtigten *',
+    email: 'E-Mail *',
+    phone: 'Telefon (optional)',
     message:
       'Bitte geben Sie Gründe an, warum Sie Ihr Kind in unserer Kita anmelden möchten *',
     consentBefore: 'Ich habe die ',
@@ -42,6 +45,9 @@ const labels = {
     male: 'masculino',
     diverse: 'diverso',
     language: 'Lengua materna hablada en casa *',
+    parent: 'Nombre del padre/madre o tutor/a *',
+    email: 'Correo electrónico *',
+    phone: 'Teléfono (opcional)',
     message:
       'Por favor, indique los motivos por los que quiere inscribir a su hijo/a en nuestra Kita *',
     consentBefore: 'He leído la ',
@@ -110,6 +116,22 @@ const FORM_ENDPOINT = endpoints[lang];
     </div>
 
     <div class="field">
+      <label for="parent">{l.parent}</label>
+      <input id="parent" name="Erziehungsberechtigte" type="text" autocomplete="name" required />
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label for="email">{l.email}</label>
+        <input id="email" name="E-Mail" type="email" autocomplete="email" required />
+      </div>
+      <div class="field">
+        <label for="phone">{l.phone}</label>
+        <input id="phone" name="Telefon" type="tel" autocomplete="tel" />
+      </div>
+    </div>
+
+    <div class="field">
       <label for="message">{l.message}</label>
       <textarea id="message" name="Nachricht" rows="5" required></textarea>
     </div>
@@ -170,6 +192,8 @@ const FORM_ENDPOINT = endpoints[lang];
   }
 
   input[type='text'],
+  input[type='email'],
+  input[type='tel'],
   input[type='date'],
   textarea {
     width: 100%;
