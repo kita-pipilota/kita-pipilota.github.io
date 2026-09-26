@@ -49,8 +49,6 @@ Die Räume können von den Kindern vielfältig genutzt werden, um ihre Spielidee
   <img src="/images/03-pipilota-gebastelt.jpg" alt="Gebastelt" loading="lazy" />
 </div>
 
-## Einrichtungen
-
 ### Eigener Garten
 
 Nur 100 Meter von der Einrichtung entfernt verfügen wir über einen privaten Garten im Freien.

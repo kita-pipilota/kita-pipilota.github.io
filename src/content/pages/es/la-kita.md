@@ -65,8 +65,6 @@ En las habitaciones se encuentran las siguientes ofertas:
   <img src="/images/03-pipilota-gebastelt.jpg" alt="Manualidades" loading="lazy" />
 </div>
 
-## Instalaciones
-
 ### Jardín propio
 
 A tan solo 100 metros del establecimiento contamos con un jardín al aire libre privado.
