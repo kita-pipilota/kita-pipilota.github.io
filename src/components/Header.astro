@@ -36,41 +36,13 @@ const other: Lang = lang === 'de' ? 'es' : 'de';
     <nav id="primary-nav" class="primary-nav" aria-label={t.menu}>
       <ul class="nav-list">
         {
-          nav.map((node) =>
-            node.kind === 'page' ? (
-              <li>
-                <a
-                  href={localePath(lang, node.key)}
-                  aria-current={node.key === pageKey ? 'page' : undefined}
-                >
-                  {pageRegistry[node.key][lang].label}
-                </a>
-              </li>
-            ) : (
-              <li class="nav-group">
-                <button
-                  class="nav-group__toggle"
-                  type="button"
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                >
-                  {node.label[lang]}
-                </button>
-                <ul class="nav-sublist">
-                  {node.children.map((child) => (
-                    <li>
-                      <a
-                        href={localePath(lang, child)}
-                        aria-current={child === pageKey ? 'page' : undefined}
-                      >
-                        {pageRegistry[child][lang].label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ),
-          )
+          nav.map((key) => (
+            <li>
+              <a href={localePath(lang, key)} aria-current={key === pageKey ? 'page' : undefined}>
+                {pageRegistry[key][lang].label}
+              </a>
+            </li>
+          ))
         }
       </ul>
 
@@ -98,15 +70,6 @@ const other: Lang = lang === 'de' ? 'es' : 'de';
     const open = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!open));
     navEl?.classList.toggle('is-open', !open);
-  });
-
-  header?.querySelectorAll('.nav-group__toggle').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const group = btn.closest('.nav-group');
-      const open = btn.getAttribute('aria-expanded') === 'true';
-      btn.setAttribute('aria-expanded', String(!open));
-      group?.classList.toggle('is-open', !open);
-    });
   });
 </script>
 
@@ -151,58 +114,34 @@ const other: Lang = lang === 'de' ? 'es' : 'de';
   .nav-list {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 0.9rem;
     list-style: none;
     margin: 0;
     padding: 0;
   }
 
-  .nav-list a,
-  .nav-group__toggle {
+  .nav-list a {
     font-family: var(--font-nav-stack);
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
     text-decoration: none;
     color: var(--color-text);
-    background: none;
-    border: 0;
     padding: 0.25rem 0;
-    cursor: pointer;
   }
 
   .nav-list a:hover,
-  .nav-group__toggle:hover,
   .nav-list a[aria-current='page'] {
     color: var(--color-accent-dark);
-  }
-
-  .nav-group {
-    position: relative;
-  }
-
-  .nav-sublist {
-    list-style: none;
-    margin: 0;
-    padding: 0.5rem 0;
-    display: none;
-    flex-direction: column;
-    gap: 0.4rem;
-  }
-
-  .nav-group:hover .nav-sublist,
-  .nav-group:focus-within .nav-sublist,
-  .nav-group.is-open .nav-sublist {
-    display: flex;
   }
 
   .lang-switch {
     font-family: var(--font-nav-stack);
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
     text-decoration: none;
     color: var(--color-accent-dark);
     border: 1px solid var(--color-accent);
@@ -211,22 +150,7 @@ const other: Lang = lang === 'de' ? 'es' : 'de';
     white-space: nowrap;
   }
 
-  @media (min-width: 56rem) {
-    .nav-group .nav-sublist {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      min-width: 12rem;
-      background: var(--color-bg);
-      border: 1px solid var(--color-border);
-      border-radius: var(--radius);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-      padding: 0.75rem 1rem;
-      z-index: 20;
-    }
-  }
-
-  @media (max-width: 55.99rem) {
+  @media (max-width: 63.99rem) {
     .nav-toggle {
       display: flex;
     }
@@ -253,8 +177,8 @@ const other: Lang = lang === 'de' ? 'es' : 'de';
       gap: 0.75rem;
     }
 
-    .nav-sublist {
-      padding-left: 1rem;
+    .nav-list a {
+      font-size: 0.9rem;
     }
 
     .lang-switch {

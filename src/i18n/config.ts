@@ -6,8 +6,6 @@ export const languages = {
 export type Lang = keyof typeof languages;
 export const langs = Object.keys(languages) as Lang[];
 
-type Localized<T> = Record<Lang, T>;
-
 /**
  * Registry of every page: its slug and nav label per language.
  * The key is the language-independent `translationKey` used in frontmatter.
@@ -61,21 +59,16 @@ export const pageRegistry = {
 
 export type PageKey = keyof typeof pageRegistry;
 
-type NavNode =
-  | { kind: 'page'; key: PageKey }
-  | { kind: 'group'; label: Localized<string>; children: PageKey[] };
-
-export const nav: NavNode[] = [
-  { kind: 'page', key: 'concept' },
-  {
-    kind: 'group',
-    label: { de: 'Kita', es: 'La Kita' },
-    children: ['kita', 'house', 'educators'],
-  },
-  { kind: 'page', key: 'admission' },
-  { kind: 'page', key: 'dates' },
-  { kind: 'page', key: 'cooperation' },
-  { kind: 'page', key: 'location' },
+/** Top-level navigation, in order. */
+export const nav: PageKey[] = [
+  'concept',
+  'kita',
+  'house',
+  'educators',
+  'admission',
+  'dates',
+  'cooperation',
+  'location',
 ];
 
 export const ui = {
