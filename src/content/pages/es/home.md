@@ -8,6 +8,8 @@ translationKey: "home"
 
 Somos un jardín infantil **español-alemán** en Berlin-Friedrichshain. Acompañamos a niñxs desde el año hasta la edad escolar en un entorno bilingüe, respetuoso y con mucho espacio para el juego libre.
 
+**Tenemos plazas libres** – puede [inscribir a su hijx](/es/admision/) en cualquier momento.
+
 - [Nuestro concepto](/es/concepto/)
 - [La Kita](/es/la-kita/)
 - [Inscripción](/es/admision/)

@@ -8,6 +8,8 @@ translationKey: "home"
 
 Wir sind eine **spanisch-deutsche** Kindertagesstätte in Berlin-Friedrichshain. Wir begleiten Kinder von einem Jahr bis zum Schulbeginn in einer bilingualen, wertschätzenden Umgebung mit viel Raum für freies Spiel.
 
+**Wir haben freie Plätze** – Sie können Ihr Kind jederzeit [anmelden](/de/anmeldung/).
+
 - [Unser Konzept](/de/konzept/)
 - [Kita](/de/kita/)
 - [Anmeldung](/de/anmeldung/)
