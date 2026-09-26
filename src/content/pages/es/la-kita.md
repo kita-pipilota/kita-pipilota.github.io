@@ -17,10 +17,7 @@ El Jardín Infantil español-alemán **“PIPILOTA”** es gestionado por la aso
 ## Ubicación y entorno
 
 - **Dirección:** El jardín infantil está situado en la Ebertystr. 43, en el Hausburgviertel de Berlin-Friedrichshain.
-- **Capacidad:** Las instalaciones están diseñadas para un máximo de 36 niñxs (desde el año y medio hasta la edad escolar).
 - **Entorno cercano:** En las inmediaciones se encuentran zonas de recreo, parques y nuevos patios de juego. Además, estamos cerca del colegio "Hausburg" (integrado con la escuela pública de Europa español-alemán).
-
-Trabajamos con niños de edades que van desde el año y medio hasta el comienzo de la edad escolar. Estos niños provienen de diferentes distritos de Berlín, de distinta clase socioeconómica, así como de diferentes nacionalidades y de familias binacionales y bilingües.
 
 ## La Kita
 
