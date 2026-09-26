@@ -33,7 +33,7 @@ export const pageRegistry = {
   },
   admission: {
     de: { slug: 'anmeldung', label: 'Anmeldung' },
-    es: { slug: 'admision', label: 'Admisión' },
+    es: { slug: 'admision', label: 'Inscripción' },
   },
   dates: {
     de: { slug: 'termine', label: 'Termine' },

@@ -1,6 +1,6 @@
 ---
-title: "Admisión"
-description: "Inscripción en la Kita Pipilota: formulario de admisión."
+title: "Inscripción"
+description: "Inscripción en la Kita Pipilota: formulario de inscripción."
 translationKey: "admission"
 ---
 
