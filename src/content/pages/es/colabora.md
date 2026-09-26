@@ -37,10 +37,3 @@ así como a los numerosos padres y amigos que con sus donaciones y su ayuda han 
 ¡Muchísimas gracias por su apoyo!
 
 El equipo de la guardería
-
-<div class="gallery">
-  <img src="/images/kooperation-1.png" alt="Patio de juegos" loading="lazy" />
-  <img src="/images/kooperation-2.png" alt="Patio de juegos" loading="lazy" />
-  <img src="/images/kooperation-3.png" alt="Patio de juegos" loading="lazy" />
-  <img src="/images/kooperation-4.png" alt="Patio de juegos" loading="lazy" />
-</div>

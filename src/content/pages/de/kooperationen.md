@@ -43,10 +43,3 @@ sowie den vielen Eltern und Freund\*innen, die mit ihren Spenden und ihrer Hilfe
 Vielen, vielen Dank für Ihre Unterstützung!
 
 Euer Kita-Team
-
-<div class="gallery">
-  <img src="/images/kooperation-1.png" alt="Außengelände" loading="lazy" />
-  <img src="/images/kooperation-2.png" alt="Außengelände" loading="lazy" />
-  <img src="/images/kooperation-3.png" alt="Außengelände" loading="lazy" />
-  <img src="/images/kooperation-4.png" alt="Außengelände" loading="lazy" />
-</div>

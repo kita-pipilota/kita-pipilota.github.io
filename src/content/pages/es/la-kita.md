@@ -69,6 +69,13 @@ En las habitaciones se encuentran las siguientes ofertas:
 
 A tan solo 100 metros del establecimiento contamos con un jardín al aire libre privado.
 
+<div class="gallery">
+  <img src="/images/kooperation-1.png" alt="Jardín" loading="lazy" />
+  <img src="/images/kooperation-2.png" alt="Jardín" loading="lazy" />
+  <img src="/images/kooperation-3.png" alt="Jardín" loading="lazy" />
+  <img src="/images/kooperation-4.png" alt="Jardín" loading="lazy" />
+</div>
+
 ### El bosque
 
 Una vez a la semana, todxs lxs niñxs a partir de los 3 años realizan su jornada en el bosque, como parte de nuestro enfoque de pedagogía ambiental.

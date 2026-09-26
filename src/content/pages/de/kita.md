@@ -53,6 +53,13 @@ Die Räume können von den Kindern vielfältig genutzt werden, um ihre Spielidee
 
 Nur 100 Meter von der Einrichtung entfernt verfügen wir über einen privaten Garten im Freien.
 
+<div class="gallery">
+  <img src="/images/kooperation-1.png" alt="Garten" loading="lazy" />
+  <img src="/images/kooperation-2.png" alt="Garten" loading="lazy" />
+  <img src="/images/kooperation-3.png" alt="Garten" loading="lazy" />
+  <img src="/images/kooperation-4.png" alt="Garten" loading="lazy" />
+</div>
+
 ### Der Wald
 
 Einmal pro Woche verbringen alle Kinder ab 3 Jahren ihren Tag im Wald, als Teil unseres pädagogischen Ansatzes der Umweltpädagogik.
