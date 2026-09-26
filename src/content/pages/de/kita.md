@@ -14,29 +14,9 @@ Die Räumlichkeiten unserer Kindertagesstätte bieten eine Kapazität für maxim
 
 Ein neu gestalteter Spiel- und Freizeitbereich „Hausburgspielplatz“ sowie umliegende Spielplätze und Parkanlagen sind in unmittelbarer Nähe. Wir arbeiten mit Kindern von 1 Jahr bis zum Eintritt des Schulbeginns. Sie kommen aus verschiedenen Stadtteilen Berlins, aus unterschiedlichen Familienstrukturen sowie kulturellen und sozialen Hintergründen. In unserer Kita sind verschiedene Nationalitäten vertreten.
 
-## Einrichtungen
+## Die Kita
 
 Unsere Räumlichkeiten sind in Räume mit spezifischen Funktionen unterteilt, um verschiedene Aktivitäten und freies Spielen zu fördern.
-
-### Eigener Garten
-
-Nur 100 Meter von der Einrichtung entfernt verfügen wir über einen privaten Garten im Freien.
-
-### Der Wald
-
-Einmal pro Woche verbringen alle Kinder ab 3 Jahren ihren Tag im Wald, als Teil unseres pädagogischen Ansatzes der Umweltpädagogik.
-
-<div class="gallery">
-  <img src="/images/19-pipilota-wald-01.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/20-pipilota-wald-02.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/21-pipilota-wald-03.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/22-pipilota-wald-04.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/wald-1.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/wald-2.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/wald-3.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/wald-4.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/wald-5.jpg" alt="Wald" loading="lazy" />
-</div>
 
 Die Funktionsräume sind:
 
@@ -67,6 +47,28 @@ Die Räume können von den Kindern vielfältig genutzt werden, um ihre Spielidee
   <img src="/images/10-pipilota-mal-und-bastelraum.jpg" alt="Mal- und Bastelraum" loading="lazy" />
   <img src="/images/05-pipilota-giraffe-1.jpg" alt="Dekoration" loading="lazy" />
   <img src="/images/03-pipilota-gebastelt.jpg" alt="Gebastelt" loading="lazy" />
+</div>
+
+## Einrichtungen
+
+### Eigener Garten
+
+Nur 100 Meter von der Einrichtung entfernt verfügen wir über einen privaten Garten im Freien.
+
+### Der Wald
+
+Einmal pro Woche verbringen alle Kinder ab 3 Jahren ihren Tag im Wald, als Teil unseres pädagogischen Ansatzes der Umweltpädagogik.
+
+<div class="gallery">
+  <img src="/images/19-pipilota-wald-01.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/20-pipilota-wald-02.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/21-pipilota-wald-03.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/22-pipilota-wald-04.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-1.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-2.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-3.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-4.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-5.jpg" alt="Wald" loading="lazy" />
 </div>
 
 ## Tagesablauf

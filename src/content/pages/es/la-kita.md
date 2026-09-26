@@ -22,29 +22,9 @@ El Jardín Infantil español-alemán **“PIPILOTA”** es gestionado por la aso
 
 Trabajamos con niños de edades que van desde el año y medio hasta el comienzo de la edad escolar. Estos niños provienen de diferentes distritos de Berlín, de distinta clase socioeconómica, así como de diferentes nacionalidades y de familias binacionales y bilingües.
 
-## Instalaciones
+## La Kita
 
 Nuestras instalaciones están distribuidas en habitaciones con funciones específicas para fomentar diversas actividades y el juego libre.
-
-### Jardín propio
-
-A tan solo 100 metros del establecimiento contamos con un jardín al aire libre privado.
-
-### El bosque
-
-Una vez a la semana, todxs lxs niñxs a partir de los 3 años realizan su jornada en el bosque, como parte de nuestro enfoque de pedagogía ambiental.
-
-<div class="gallery">
-  <img src="/images/19-pipilota-wald-01.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/20-pipilota-wald-02.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/21-pipilota-wald-03.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/22-pipilota-wald-04.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/wald-1.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/wald-2.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/wald-3.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/wald-4.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/wald-5.jpg" alt="Bosque" loading="lazy" />
-</div>
 
 Las habitaciones son:
 
@@ -83,6 +63,28 @@ En las habitaciones se encuentran las siguientes ofertas:
   <img src="/images/10-pipilota-mal-und-bastelraum.jpg" alt="Taller de pintura" loading="lazy" />
   <img src="/images/05-pipilota-giraffe-1.jpg" alt="Decoración" loading="lazy" />
   <img src="/images/03-pipilota-gebastelt.jpg" alt="Manualidades" loading="lazy" />
+</div>
+
+## Instalaciones
+
+### Jardín propio
+
+A tan solo 100 metros del establecimiento contamos con un jardín al aire libre privado.
+
+### El bosque
+
+Una vez a la semana, todxs lxs niñxs a partir de los 3 años realizan su jornada en el bosque, como parte de nuestro enfoque de pedagogía ambiental.
+
+<div class="gallery">
+  <img src="/images/19-pipilota-wald-01.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/20-pipilota-wald-02.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/21-pipilota-wald-03.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/22-pipilota-wald-04.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-1.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-2.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-3.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-4.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-5.jpg" alt="Bosque" loading="lazy" />
 </div>
 
 ## Programa Diario
