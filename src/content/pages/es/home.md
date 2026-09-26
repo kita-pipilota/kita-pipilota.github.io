@@ -1,6 +1,6 @@
 ---
 title: "Jardín infantil español-alemán en Berlín-Friedrichshain"
-description: "Kita Pipilota: jardín infantil bilingüe español-alemán (guardería) en Berlin-Friedrichshain. Plazas para niñxs de 1 año hasta la edad escolar."
+description: "Kita Pipilota: jardín infantil bilingüe español-alemán (guardería) en Berlin-Friedrichshain. Plazas libres para niñxs de 1 año hasta la edad escolar."
 translationKey: "home"
 ---
 
@@ -10,8 +10,4 @@ Somos un jardín infantil **español-alemán** en Berlin-Friedrichshain. Acompa�
 
 **Tenemos plazas libres** – puede [inscribir a su hijx](/es/admision/) en cualquier momento.
 
-- [Nuestro concepto](/es/concepto/)
-- [La Kita](/es/la-kita/)
-- [Inscripción](/es/admision/)
-
-**Contacto:** Ebertystraße 43, 10249 Berlin · [(030) 42 80 98 79](tel:+493042809879)
+![Niñxs en el bosque con la Kita Pipilota](/images/19-pipilota-wald-01.jpg)

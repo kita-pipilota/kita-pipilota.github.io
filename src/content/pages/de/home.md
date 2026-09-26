@@ -1,6 +1,6 @@
 ---
 title: "Spanisch-deutsche Kita in Berlin-Friedrichshain"
-description: "Kita Pipilota: bilinguale spanisch-deutsche Kindertagesstätte (Kita) in Berlin-Friedrichshain. Betreuung für Kinder von 1 Jahr bis zum Schulbeginn."
+description: "Kita Pipilota: bilinguale spanisch-deutsche Kindertagesstätte (Kita) in Berlin-Friedrichshain. Freie Plätze – Betreuung für Kinder von 1 Jahr bis zum Schulbeginn."
 translationKey: "home"
 ---
 
@@ -10,8 +10,4 @@ Wir sind eine **spanisch-deutsche** Kindertagesstätte in Berlin-Friedrichshain.
 
 **Wir haben freie Plätze** – Sie können Ihr Kind jederzeit [anmelden](/de/anmeldung/).
 
-- [Unser Konzept](/de/konzept/)
-- [Kita](/de/kita/)
-- [Anmeldung](/de/anmeldung/)
-
-**Kontakt:** Ebertystraße 43, 10249 Berlin · [(030) 42 80 98 79](tel:+493042809879)
+![Kinder im Wald bei der Kita Pipilota](/images/19-pipilota-wald-01.jpg)

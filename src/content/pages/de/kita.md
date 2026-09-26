@@ -77,7 +77,6 @@ Nur 100 Meter von der Einrichtung entfernt verfügen wir über einen privaten Ga
 Einmal pro Woche verbringen alle Kinder ab 3 Jahren ihren Tag im Wald, als Teil unseres pädagogischen Ansatzes der Umweltpädagogik.
 
 <div class="gallery">
-  <img src="/images/19-pipilota-wald-01.jpg" alt="Wald" loading="lazy" />
   <img src="/images/20-pipilota-wald-02.jpg" alt="Wald" loading="lazy" />
   <img src="/images/21-pipilota-wald-03.jpg" alt="Wald" loading="lazy" />
   <img src="/images/22-pipilota-wald-04.jpg" alt="Wald" loading="lazy" />

@@ -77,7 +77,6 @@ A tan solo 100 metros del establecimiento contamos con un jardín al aire libre 
 Una vez a la semana, todxs lxs niñxs a partir de los 3 años realizan su jornada en el bosque, como parte de nuestro enfoque de pedagogía ambiental.
 
 <div class="gallery">
-  <img src="/images/19-pipilota-wald-01.jpg" alt="Bosque" loading="lazy" />
   <img src="/images/20-pipilota-wald-02.jpg" alt="Bosque" loading="lazy" />
   <img src="/images/21-pipilota-wald-03.jpg" alt="Bosque" loading="lazy" />
   <img src="/images/22-pipilota-wald-04.jpg" alt="Bosque" loading="lazy" />
