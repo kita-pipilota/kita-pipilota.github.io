@@ -33,7 +33,7 @@ export const pageRegistry = {
   },
   cooperation: {
     de: { slug: 'kooperationen', label: 'Kooperationen' },
-    es: { slug: 'colabora', label: 'Colabora' },
+    es: { slug: 'colabora', label: 'Colaboraciones' },
   },
   location: {
     de: { slug: 'standort', label: 'Standort' },

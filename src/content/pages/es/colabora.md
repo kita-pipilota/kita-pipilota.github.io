@@ -1,5 +1,5 @@
 ---
-title: "Colabora"
+title: "Colaboraciones"
 description: "En nuestra Kita formamos parte del DAKS Verband y colaboramos con Strohhalm e.V., creando redes de apoyo para el bienestar de las niñas, niños y familias."
 translationKey: "cooperation"
 ---
