@@ -97,29 +97,29 @@ Das Team ist die pädagogische Arbeitsgruppe des Vereins der Kindertagesstätte 
 
 Sechs ErzieherInnen, vier spanische und zwei deutsche MuttersprachlerInnen, arbeiten mit den Kindern. Die ErzieherInnen bringen besondere Qualifikationen (Umwelt-, Kunst-, Tanz- und Psychopädagogik) mit.
 
-#### Emma Juan Uriol
+#### Emma
 
-Seit 1997 Erzieherin. In Spanien arbeitete sie in Kindergärten und nahm an unterschiedlichen Projekten zur Spracherziehung von Kindern teil. Absolviertes Hochschulstudium als Erzieherin (1997) und als Psychopädagogin (2000). Förderung der Sprachentwicklung der Kinder in spielerischer Form.
+Emma ist seit 1997 Erzieherin. In Spanien arbeitete sie in Kindergärten und nahm an verschiedenen Projekten zur Spracherziehung von Kindern teil. Sie absolvierte ein Hochschulstudium als Erzieherin (1997) und als Psychopädagogin (2000) und fördert die Sprachentwicklung der Kinder in spielerischer Form.
 
-#### Ute Essig
+#### Ute
 
-Seit 1985 Erzieherin, mehrfache Tätigkeiten in multikulturellen und integrativen Einrichtungen. Absolviertes Kunststudium und mehrjähriger Aufenthalt in London. Dort Leiterin zahlreicher Kunstworkshops für Kinder und Jugendliche. Seit Juli 2004 bei Pipilota. Gezielte Angebote zur Förderung der Kreativität.
+Ute ist seit 1985 Erzieherin und war in multikulturellen und integrativen Einrichtungen tätig. Nach einem Kunststudium und einem mehrjährigen Aufenthalt in London leitete sie dort zahlreiche Kunstworkshops für Kinder und Jugendliche. Seit Juli 2004 arbeitet sie bei Pipilota und bietet gezielte Angebote zur Förderung der Kreativität an.
 
 #### Tiare
 
-Seit 2019 ist sie Erzieherin, hat ihre Ausbildung in Chile absolviert und verfügt über Erfahrung in zweisprachigen Schulen. Sie hat mit kleinen Kindern in verschiedenen Bildungskontexten gearbeitet und dabei ein nahes und respektvolles Lernen gefördert. Mit ihrer tiefen Liebe zur Musik und Fotografie integriert sie diese künstlerischen Ausdrucksformen in ihre pädagogische Arbeit und zeichnet sich durch ihre Leidenschaft und ihr Engagement in der Arbeit mit Kleinkindern aus.
+Tiare ist seit 2019 Erzieherin, hat ihre Ausbildung in Chile absolviert und verfügt über Erfahrung in zweisprachigen Schulen. Sie hat mit kleinen Kindern in verschiedenen Bildungskontexten gearbeitet und dabei ein nahes und respektvolles Lernen gefördert. Mit ihrer Liebe zur Musik und Fotografie integriert sie diese künstlerischen Ausdrucksformen in ihre pädagogische Arbeit.
 
 #### Alba
 
-Seit meiner Kindheit begeistere ich mich für die frühkindliche Bildung. Ich habe verschiedene Kurse im Bereich frühkindliche Bildung absolviert, den Hochschulabschluss in frühkindlicher Bildung erworben und mein Studium abgeschlossen, nur die Abschlussarbeit steht noch aus. Ich habe in Sommerschulen und Kindertagesstätten gearbeitet, wodurch ich die Entwicklung von Kindern im frühen Alter begleiten und verstehen lernen konnte, was mich besonders motiviert. Ich halte mich für eine zugängliche, verantwortungsbewusste und engagierte Person und nutze gerne Musik als Mittel zum Lernen und zum Ausdruck für die Kleinsten.
+Alba begeistert sich seit ihrer Kindheit für die frühkindliche Bildung. Sie hat verschiedene Kurse im Bereich frühkindliche Bildung absolviert, den Hochschulabschluss in frühkindlicher Bildung erworben und ihr Studium abgeschlossen; nur die Abschlussarbeit steht noch aus. Sie hat in Sommerschulen und Kindertagesstätten gearbeitet und dabei die Entwicklung von Kindern im frühen Alter begleiten und verstehen gelernt. Sie beschreibt sich als zugängliche, verantwortungsbewusste und engagierte Person und nutzt gerne Musik als Mittel zum Lernen und zum Ausdruck für die Kleinsten.
 
 #### Laura
 
-Ich bin Laura, Sozialarbeiterin und Erzieherin. Der soziale Bereich war schon immer meine Stärke, und durch die Arbeit mit Kindern habe ich den Reichtum und die Tiefe der Welt der Kinder entdeckt. Ihre Entwicklung zu begleiten hat mir bestätigt, wie wichtig eine Erziehung ist, die auf Selbstständigkeit, Reflexion, Respekt und Selbsterkenntnis als Grundpfeiler der Entwicklung basiert.
+Laura ist Sozialarbeiterin und Erzieherin. Der soziale Bereich war schon immer ihre Stärke, und durch die Arbeit mit Kindern hat sie den Reichtum und die Tiefe der Welt der Kinder entdeckt. Die Begleitung ihrer Entwicklung hat ihr bestätigt, wie wichtig eine Erziehung ist, die auf Selbstständigkeit, Reflexion, Respekt und Selbsterkenntnis als Grundpfeiler der Entwicklung basiert.
 
-#### Elena Duran
+#### Elena
 
-Umfangreiches umweltpädagogisches Wissen und Erfahrung in der Arbeit mit altersgemischten Gruppen. Regelmäßige Waldtage in der Umgebung Berlins, tägliches, wetterunabhängiges Rausgehen.
+Elena verfügt über umfangreiches umweltpädagogisches Wissen und Erfahrung in der Arbeit mit altersgemischten Gruppen. Sie unternimmt regelmäßig Waldtage in der Umgebung Berlins und geht mit den Kindern täglich und wetterunabhängig nach draußen.
 
 ### Unterstützung
 
