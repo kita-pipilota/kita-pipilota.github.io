@@ -23,11 +23,9 @@ Berlin-Friedrichshain, para niñxs de 1 año hasta la edad escolar.
 
 - [Startseite](https://pipilota.de/de/): bilinguale Kita in Berlin-Friedrichshain
 - [Konzept](https://pipilota.de/de/konzept/): pädagogisches Konzept (PDF verfügbar)
-- [Kita](https://pipilota.de/de/kita/): Träger, Lage, Räume, Tagesablauf, Team
-- [Haus](https://pipilota.de/de/haus/): Räume und Außengelände
-- [ErzieherInnen](https://pipilota.de/de/erzieherinnen/): das pädagogische Team
+- [Kita](https://pipilota.de/de/kita/): Träger, Lage, Einrichtungen, Tagesablauf, Team
 - [Anmeldung](https://pipilota.de/de/anmeldung/): Anmeldeformular
-- [Termine](https://pipilota.de/de/termine/): Termine 2026
+- [Termine](https://pipilota.de/de/termine/): Termine 2026/2027
 - [Kooperationen](https://pipilota.de/de/kooperationen/): DAKS Verband, Strohhalm e.V., Förderer
 - [Standort](https://pipilota.de/de/standort/): Kontakt, Anfahrt, Karte
 - [Impressum](https://pipilota.de/de/impressum/)
@@ -37,11 +35,9 @@ Berlin-Friedrichshain, para niñxs de 1 año hasta la edad escolar.
 
 - [Inicio](https://pipilota.de/es/): jardín infantil español-alemán en Berlín
 - [Concepto](https://pipilota.de/es/concepto/): concepto pedagógico
-- [La Kita](https://pipilota.de/es/la-kita/): asociación, ubicación, espacios, rutina diaria, equipo
-- [Instalaciones](https://pipilota.de/es/instalaciones/): espacios interiores y exteriores
-- [Educadoras](https://pipilota.de/es/educadoras/): el equipo pedagógico
-- [Admisión](https://pipilota.de/es/admision/): formulario de inscripción
-- [Calendario](https://pipilota.de/es/calendario/): citas 2026
+- [La Kita](https://pipilota.de/es/la-kita/): asociación, ubicación, instalaciones, rutina diaria, equipo
+- [Inscripción](https://pipilota.de/es/admision/): formulario de inscripción
+- [Calendario](https://pipilota.de/es/calendario/): citas 2026/2027
 - [Colabora](https://pipilota.de/es/colabora/): DAKS Verband, Strohhalm e.V., patrocinadores
 - [Ubicación](https://pipilota.de/es/ubicacion/): contacto, cómo llegar, mapa
 - [Protección de datos](https://pipilota.de/es/proteccion-de-datos/)

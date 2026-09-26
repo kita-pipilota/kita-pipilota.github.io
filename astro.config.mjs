@@ -23,6 +23,11 @@ export default defineConfig({
   redirects: {
     // The Impressum is a German legal requirement and only exists in German.
     '/es/aviso-legal/': '/de/impressum/',
+    // Merged pages: Haus/ErzieherInnen into Kita, Instalaciones/Educadoras into La Kita.
+    '/de/haus/': '/de/kita/',
+    '/de/erzieherinnen/': '/de/kita/',
+    '/es/instalaciones/': '/es/la-kita/',
+    '/es/educadoras/': '/es/la-kita/',
   },
   fonts: [
     {

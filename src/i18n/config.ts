@@ -23,14 +23,6 @@ export const pageRegistry = {
     de: { slug: 'kita', label: 'Kita' },
     es: { slug: 'la-kita', label: 'La Kita' },
   },
-  house: {
-    de: { slug: 'haus', label: 'Haus' },
-    es: { slug: 'instalaciones', label: 'Instalaciones' },
-  },
-  educators: {
-    de: { slug: 'erzieherinnen', label: 'ErzieherInnen' },
-    es: { slug: 'educadoras', label: 'Educadoras' },
-  },
   admission: {
     de: { slug: 'anmeldung', label: 'Anmeldung' },
     es: { slug: 'admision', label: 'Inscripción' },
@@ -63,8 +55,6 @@ export type PageKey = keyof typeof pageRegistry;
 export const nav: PageKey[] = [
   'concept',
   'kita',
-  'house',
-  'educators',
   'admission',
   'dates',
   'cooperation',
