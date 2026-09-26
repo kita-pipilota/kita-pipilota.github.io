@@ -14,8 +14,7 @@ Wir sind die spanisch-deutsche Kindertagesstätte **„PIPILOTA“**; Träger is
 
 ## Lage und Umgebung
 
-- **Adresse:** Unsere Kita befindet sich in der Ebertystraße 43 im Hausburgviertel in Berlin-Friedrichshain.
-- **Nahumgebung:** In unmittelbarer Nähe befinden sich Erholungsgebiete, Parks und neue Spielplätze sowie der neu gestaltete „Hausburgspielplatz“. Außerdem sind wir in der Nähe der Hausburgschule (integriert in die spanisch-deutsche Europaschule).
+Die Kindertagesstätte befindet sich in der Ebertystraße 43 im Hausburgviertel in Friedrichshain. In unmittelbarer Nähe befinden sich verschiedene Parks und Spielplätze sowie die Hausburgschule (integriert in die spanisch-deutsche Europaschule).
 
 ## Die Kita
 
