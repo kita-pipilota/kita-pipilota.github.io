@@ -71,8 +71,7 @@ const endpoints: Record<Lang, string> = {
 const FORM_ENDPOINT = endpoints[lang];
 ---
 
-<section class="contact-form" aria-labelledby="form-heading">
-  <h2 id="form-heading">{l.heading}</h2>
+<section class="contact-form" aria-label={l.heading}>
   <p>{l.intro}</p>
   <p class="contact-form__required">{l.required}</p>
 
