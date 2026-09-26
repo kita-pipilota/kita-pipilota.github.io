@@ -24,10 +24,27 @@ Trabajamos con niños de edades que van desde el año y medio hasta el comienzo 
 
 ## Instalaciones
 
-Nuestras instalaciones están distribuidas en habitaciones con funciones específicas para fomentar diversas actividades y el juego libre:
+Nuestras instalaciones están distribuidas en habitaciones con funciones específicas para fomentar diversas actividades y el juego libre.
 
-- **Jardín propio:** A tan solo 100 metros del establecimiento contamos con un jardín al aire libre privado.
-- **El bosque:** Una vez a la semana, todxs lxs niñxs a partir de los 3 años realizan su jornada en el bosque, como parte de nuestro enfoque de pedagogía ambiental.
+### Jardín propio
+
+A tan solo 100 metros del establecimiento contamos con un jardín al aire libre privado.
+
+### El bosque
+
+Una vez a la semana, todxs lxs niñxs a partir de los 3 años realizan su jornada en el bosque, como parte de nuestro enfoque de pedagogía ambiental.
+
+<div class="gallery">
+  <img src="/images/19-pipilota-wald-01.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/20-pipilota-wald-02.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/21-pipilota-wald-03.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/22-pipilota-wald-04.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-1.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-2.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-3.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-4.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald-5.jpg" alt="Bosque" loading="lazy" />
+</div>
 
 Las habitaciones son:
 
@@ -62,10 +79,6 @@ En las habitaciones se encuentran las siguientes ofertas:
   <img src="/images/04-pipilota-5tische.jpg" alt="Comedor" loading="lazy" />
   <img src="/images/02-pipilota-essenraum.jpg" alt="Comedor" loading="lazy" />
   <img src="/images/17-pipilota-bad.jpg" alt="Baño" loading="lazy" />
-  <img src="/images/22-pipilota-wald-04.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/21-pipilota-wald-03.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/19-pipilota-wald-01.jpg" alt="Bosque" loading="lazy" />
-  <img src="/images/20-pipilota-wald-02.jpg" alt="Bosque" loading="lazy" />
   <img src="/images/15-pipilota-spielraum2.jpg" alt="Sala de juegos" loading="lazy" />
   <img src="/images/10-pipilota-mal-und-bastelraum.jpg" alt="Taller de pintura" loading="lazy" />
   <img src="/images/05-pipilota-giraffe-1.jpg" alt="Decoración" loading="lazy" />

@@ -16,10 +16,27 @@ Ein neu gestalteter Spiel- und Freizeitbereich „Hausburgspielplatz“ sowie um
 
 ## Einrichtungen
 
-Unsere Räumlichkeiten sind in Räume mit spezifischen Funktionen unterteilt, um verschiedene Aktivitäten und freies Spielen zu fördern:
+Unsere Räumlichkeiten sind in Räume mit spezifischen Funktionen unterteilt, um verschiedene Aktivitäten und freies Spielen zu fördern.
 
-- **Eigener Garten:** Nur 100 Meter von der Einrichtung entfernt verfügen wir über einen privaten Garten im Freien.
-- **Der Wald:** Einmal pro Woche verbringen alle Kinder ab 3 Jahren ihren Tag im Wald, als Teil unseres pädagogischen Ansatzes der Umweltpädagogik.
+### Eigener Garten
+
+Nur 100 Meter von der Einrichtung entfernt verfügen wir über einen privaten Garten im Freien.
+
+### Der Wald
+
+Einmal pro Woche verbringen alle Kinder ab 3 Jahren ihren Tag im Wald, als Teil unseres pädagogischen Ansatzes der Umweltpädagogik.
+
+<div class="gallery">
+  <img src="/images/19-pipilota-wald-01.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/20-pipilota-wald-02.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/21-pipilota-wald-03.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/22-pipilota-wald-04.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-1.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-2.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-3.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-4.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald-5.jpg" alt="Wald" loading="lazy" />
+</div>
 
 Die Funktionsräume sind:
 
@@ -46,10 +63,6 @@ Die Räume können von den Kindern vielfältig genutzt werden, um ihre Spielidee
   <img src="/images/04-pipilota-5tische.jpg" alt="Speiseraum" loading="lazy" />
   <img src="/images/02-pipilota-essenraum.jpg" alt="Speiseraum" loading="lazy" />
   <img src="/images/17-pipilota-bad.jpg" alt="Bad" loading="lazy" />
-  <img src="/images/22-pipilota-wald-04.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/21-pipilota-wald-03.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/19-pipilota-wald-01.jpg" alt="Wald" loading="lazy" />
-  <img src="/images/20-pipilota-wald-02.jpg" alt="Wald" loading="lazy" />
   <img src="/images/15-pipilota-spielraum2.jpg" alt="Spielraum" loading="lazy" />
   <img src="/images/10-pipilota-mal-und-bastelraum.jpg" alt="Mal- und Bastelraum" loading="lazy" />
   <img src="/images/05-pipilota-giraffe-1.jpg" alt="Dekoration" loading="lazy" />
