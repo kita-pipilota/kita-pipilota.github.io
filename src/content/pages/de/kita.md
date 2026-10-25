@@ -70,6 +70,7 @@ Nur 100 Meter von der Einrichtung entfernt verfügen wir über einen privaten Ga
   <img src="/images/kooperation-2.png" alt="Garten" loading="lazy" />
   <img src="/images/kooperation-3.png" alt="Garten" loading="lazy" />
   <img src="/images/kooperation-4.png" alt="Garten" loading="lazy" />
+  <img src="/images/garten.jpeg" alt="Garten" loading="lazy" />
 </div>
 
 ### Der Wald
@@ -85,6 +86,17 @@ Einmal pro Woche verbringen alle Kinder ab 3 Jahren ihren Tag im Wald, als Teil 
   <img src="/images/wald-3.jpg" alt="Wald" loading="lazy" />
   <img src="/images/wald-4.jpg" alt="Wald" loading="lazy" />
   <img src="/images/wald-5.jpg" alt="Wald" loading="lazy" />
+  <img src="/images/wald.jpeg" alt="Wald" loading="lazy" />
+</div>
+
+### Feste und Feiern
+
+Feste gliedern das Jahr in der Kita Pipilota und bringen Kinder, Familien und Team zusammen. Wir feiern gemeinsam und verbinden Traditionen aus beiden Kulturen: das Sommerfest mit Spielen, gemeinsamem Essen und Musik im Garten; das Laternenfest im Herbst, bei dem wir am Abend mit unseren selbstgebastelten Laternen durch den Kiez ziehen; und weitere Anlässe im Laufe des Jahres wie Weihnachten, Fasching oder Geburtstage. Diese Momente erlauben uns, Sprachen, Lieder und Bräuche zu teilen, und stärken die Gemeinschaft, die wir alle zusammen bilden.
+
+<div class="gallery">
+  <img src="/images/fest1.jpeg" alt="Sommerfest" loading="lazy" />
+  <img src="/images/fest2.jpeg" alt="Laternenfest" loading="lazy" />
+  <img src="/images/fest3.jpeg" alt="Feier" loading="lazy" />
 </div>
 
 ## Tagesablauf

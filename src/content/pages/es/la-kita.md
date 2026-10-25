@@ -70,6 +70,7 @@ A tan solo 100 metros del establecimiento contamos con un jardín al aire libre 
   <img src="/images/kooperation-2.png" alt="Jardín" loading="lazy" />
   <img src="/images/kooperation-3.png" alt="Jardín" loading="lazy" />
   <img src="/images/kooperation-4.png" alt="Jardín" loading="lazy" />
+  <img src="/images/garten.jpeg" alt="Jardín" loading="lazy" />
 </div>
 
 ### El bosque
@@ -85,6 +86,17 @@ Una vez a la semana, todxs lxs niñxs a partir de los 3 años realizan su jornad
   <img src="/images/wald-3.jpg" alt="Bosque" loading="lazy" />
   <img src="/images/wald-4.jpg" alt="Bosque" loading="lazy" />
   <img src="/images/wald-5.jpg" alt="Bosque" loading="lazy" />
+  <img src="/images/wald.jpeg" alt="Bosque" loading="lazy" />
+</div>
+
+### Celebraciones
+
+Las fiestas marcan el ritmo del año en Pipilota y reúnen a niñxs, familias y equipo. Celebramos juntxs, con tradiciones de las dos culturas: el Sommerfest en verano, con juegos, comida compartida y música en el jardín; la fiesta de los farolillos (Laternenfest) en otoño, cuando recorremos el barrio al caer la tarde con nuestros faroles hechos a mano; y otras ocasiones a lo largo del año, como la Navidad, el Carnaval o los cumpleaños. Estos momentos nos permiten compartir lenguas, canciones y costumbres, y fortalecen la comunidad que formamos entre todxs.
+
+<div class="gallery">
+  <img src="/images/fest1.jpeg" alt="Sommerfest" loading="lazy" />
+  <img src="/images/fest2.jpeg" alt="Laternenfest" loading="lazy" />
+  <img src="/images/fest3.jpeg" alt="Celebración" loading="lazy" />
 </div>
 
 ## Programa Diario
