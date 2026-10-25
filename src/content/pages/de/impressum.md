@@ -10,7 +10,7 @@ Ebertystraße 43
 10249 Berlin
 
 **Vertreten durch den Vorstand:**  
-[Name des Vertretungsberechtigten]
+Ute Essig
 
 **Kontakt:**  
 Telefon: [(030) 42 80 98 79](tel:+493042809879)  
@@ -18,8 +18,8 @@ E-Mail: [info@pipilota.de](mailto:info@pipilota.de)
 
 **Registereintrag:**  
 Eingetragen im Vereinsregister.  
-Registergericht: [Amtsgericht ...]  
-Registernummer: [VR ...]
+Registergericht: Amtsgericht Charlottenburg  
+Registernummer: VR 22541 B
 
 ## Aufsichtsbehörde
 
